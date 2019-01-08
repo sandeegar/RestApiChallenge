@@ -132,7 +132,7 @@ public class postApi extends baseClass{
 	}
 				
 	@Test(dataProvider = "invalidLattitude", dataProviderClass = inputDataProvider.class)
-	public void test_04_place_order_not_placed_with_incorrect_location_of_one_stop(String invalidValue) throws Exception {	
+	public void test_04_verify_order_not_placed_with_incorrect_location_of_one_stop(String invalidValue) throws Exception {	
 		log.setLevel(Level.TRACE);
 			
 		ArrayList<Double> lattitude = new ArrayList<Double>();
