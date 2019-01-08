@@ -22,10 +22,10 @@ graph TD;    ASSIGNING-->ONGOING;
              ONGOING-->COMPLETED;
              ONGOING-->CANCELLED;
 	
-### Prerequisites
+## Prerequisites
 Configure Github repository Project in Eclipse.
 
-### Installing
+## Installing
 External Jars from the external_jars folder under root directory should be added in Java Build Path and TestNG Library should be added.
 
 ## Running the tests
