@@ -37,7 +37,7 @@ public class putApiCompleteOrder extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -50,7 +50,7 @@ public class putApiCompleteOrder extends baseClass{
         JSONObject jsonObj = new JSONObject(response.asString());
         
         int id = (int) jsonObj.get("id");
-        System.out.println("**************createdOrderId************\n"+id);
+        log.info("**************createdOrderId************\n"+id);
         RequestSpecification getRequest = RestAssured.given();
         response = getRequest.put(path+"/"+id+"/take");
         statusCode = response.getStatusCode();
@@ -58,7 +58,7 @@ public class putApiCompleteOrder extends baseClass{
         
         jsonObj = new JSONObject(response.asString());       
         String actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("ONGOING"));
         
         //When
@@ -71,11 +71,11 @@ public class putApiCompleteOrder extends baseClass{
         
         jsonObj = new JSONObject(response.asString());
         int completeOrderId = (int) jsonObj.get("id");
-        System.out.println("**************CompletedOrderId************\n"+id);
+        log.info("**************CompletedOrderId************\n"+id);
         assertThat(completeOrderId,equalTo(id));
         
         actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("COMPLETED"));
         
     }
@@ -95,7 +95,7 @@ public class putApiCompleteOrder extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -108,7 +108,7 @@ public class putApiCompleteOrder extends baseClass{
         JSONObject jsonObj = new JSONObject(response.asString());
         
         int id = (int) jsonObj.get("id");
-        System.out.println("**************createdOrderId************\n"+id);
+        log.info("**************createdOrderId************\n"+id);
         RequestSpecification getRequest = RestAssured.given();
         response = getRequest.put(path+"/"+id+"/take");
         statusCode = response.getStatusCode();
@@ -116,7 +116,7 @@ public class putApiCompleteOrder extends baseClass{
         
         jsonObj = new JSONObject(response.asString());       
         String actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("ONGOING"));
         
         //When
@@ -144,7 +144,7 @@ public class putApiCompleteOrder extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -157,7 +157,7 @@ public class putApiCompleteOrder extends baseClass{
         JSONObject jsonObj = new JSONObject(response.asString());
         
         int id = (int) jsonObj.get("id");
-        System.out.println("**************createdOrderId************\n"+id);
+        log.info("**************createdOrderId************\n"+id);
         RequestSpecification getRequest = RestAssured.given();
         response = getRequest.put(path+"/"+id+"/take");
         statusCode = response.getStatusCode();
@@ -165,7 +165,7 @@ public class putApiCompleteOrder extends baseClass{
         
         jsonObj = new JSONObject(response.asString());       
         String actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("ONGOING"));
         
         //When
@@ -209,7 +209,7 @@ public class putApiCompleteOrder extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -222,7 +222,7 @@ public class putApiCompleteOrder extends baseClass{
         JSONObject jsonObj = new JSONObject(response.asString());
         
         int id = (int) jsonObj.get("id");
-        System.out.println("**************createdOrderId************\n"+id);
+        log.info("**************createdOrderId************\n"+id);
         RequestSpecification getRequest = RestAssured.given();
         response = getRequest.put(path+"/"+id+"/take");
         statusCode = response.getStatusCode();
@@ -230,7 +230,7 @@ public class putApiCompleteOrder extends baseClass{
         
         jsonObj = new JSONObject(response.asString());       
         String actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("ONGOING"));
         
         //When

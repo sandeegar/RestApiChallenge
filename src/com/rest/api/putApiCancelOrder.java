@@ -37,7 +37,7 @@ public class putApiCancelOrder extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -50,7 +50,7 @@ public class putApiCancelOrder extends baseClass{
         JSONObject jsonObj = new JSONObject(response.asString());
         
         int id = (int) jsonObj.get("id");
-        System.out.println("**************createdOrderId************\n"+id);
+        log.info("**************createdOrderId************\n"+id);
         RequestSpecification getRequest = RestAssured.given();
         response = getRequest.get(path+"/"+id);
         statusCode = response.getStatusCode();
@@ -58,7 +58,7 @@ public class putApiCancelOrder extends baseClass{
         
         jsonObj = new JSONObject(response.asString());       
         String actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("ASSIGNING"));
         
         //When
@@ -71,11 +71,11 @@ public class putApiCancelOrder extends baseClass{
         
         jsonObj = new JSONObject(response.asString());
         int completeOrderId = (int) jsonObj.get("id");
-        System.out.println("**************CancelledOrderId************\n"+id);
+        log.info("**************CancelledOrderId************\n"+id);
         assertThat(completeOrderId,equalTo(id));
         
         actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("CANCELLED"));
         
     }
@@ -94,7 +94,7 @@ public class putApiCancelOrder extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -107,14 +107,14 @@ public class putApiCancelOrder extends baseClass{
         JSONObject jsonObj = new JSONObject(response.asString());
         
         int id = (int) jsonObj.get("id");
-        System.out.println("**************createdOrderId************\n"+id);
+        log.info("**************createdOrderId************\n"+id);
         RequestSpecification getRequest = RestAssured.given();
         response = getRequest.get(path+"/"+id);
         statusCode = response.getStatusCode();
         assertThat(statusCode, is(HttpStatus.SC_OK));            
         jsonObj = new JSONObject(response.asString());       
         String actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("ASSIGNING"));
         
         RequestSpecification putRequest = RestAssured.given();
@@ -123,7 +123,7 @@ public class putApiCancelOrder extends baseClass{
         assertThat(statusCode, is(HttpStatus.SC_OK));     
         jsonObj = new JSONObject(response.asString());       
         actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("ONGOING"));
         
         // When
@@ -135,11 +135,11 @@ public class putApiCancelOrder extends baseClass{
         // Then
         jsonObj = new JSONObject(response.asString());
         int completeOrderId = (int) jsonObj.get("id");
-        System.out.println("**************CancelledOrderId************\n"+id);
+        log.info("**************CancelledOrderId************\n"+id);
         assertThat(completeOrderId,equalTo(id));
         
         actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("CANCELLED"));
         
     }
@@ -158,7 +158,7 @@ public class putApiCancelOrder extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -171,14 +171,14 @@ public class putApiCancelOrder extends baseClass{
         JSONObject jsonObj = new JSONObject(response.asString());
         
         int id = (int) jsonObj.get("id");
-        System.out.println("**************createdOrderId************\n"+id);
+        log.info("**************createdOrderId************\n"+id);
         RequestSpecification getRequest = RestAssured.given();
         response = getRequest.get(path+"/"+id);
         statusCode = response.getStatusCode();
         assertThat(statusCode, is(HttpStatus.SC_OK));            
         jsonObj = new JSONObject(response.asString());       
         String actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("ASSIGNING"));
         
         RequestSpecification putRequest = RestAssured.given();
@@ -187,7 +187,7 @@ public class putApiCancelOrder extends baseClass{
         assertThat(statusCode, is(HttpStatus.SC_OK));     
         jsonObj = new JSONObject(response.asString());       
         actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("ONGOING"));
         
         putRequest = RestAssured.given();
@@ -196,7 +196,7 @@ public class putApiCancelOrder extends baseClass{
         assertThat(statusCode, is(HttpStatus.SC_OK));
         jsonObj = new JSONObject(response.asString());       
         actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("COMPLETED"));
         
         // When
@@ -223,7 +223,7 @@ public class putApiCancelOrder extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -236,7 +236,7 @@ public class putApiCancelOrder extends baseClass{
         JSONObject jsonObj = new JSONObject(response.asString());
         
         int id = (int) jsonObj.get("id");
-        System.out.println("**************createdOrderId************\n"+id);
+        log.info("**************createdOrderId************\n"+id);
         RequestSpecification getRequest = RestAssured.given();
         response = getRequest.get(path+"/"+id);
         statusCode = response.getStatusCode();
@@ -244,7 +244,7 @@ public class putApiCancelOrder extends baseClass{
         
         jsonObj = new JSONObject(response.asString());       
         String actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("ASSIGNING"));
         
         //When
@@ -254,10 +254,10 @@ public class putApiCancelOrder extends baseClass{
         assertThat(statusCode, is(HttpStatus.SC_OK));        
         jsonObj = new JSONObject(response.asString());
         int completeOrderId = (int) jsonObj.get("id");
-        System.out.println("**************CancelledOrderId************\n"+id);
+        log.info("**************CancelledOrderId************\n"+id);
         assertThat(completeOrderId,equalTo(id));        
         actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("CANCELLED"));
         
         putRequest = RestAssured.given();
@@ -283,7 +283,7 @@ public class putApiCancelOrder extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -319,7 +319,7 @@ public class putApiCancelOrder extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;

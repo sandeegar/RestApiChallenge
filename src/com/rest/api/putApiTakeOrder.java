@@ -37,7 +37,7 @@ public class putApiTakeOrder extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -49,7 +49,7 @@ public class putApiTakeOrder extends baseClass{
         assertThat(statusCode, is(HttpStatus.SC_CREATED));            
         JSONObject jsonObj = new JSONObject(response.asString());
         int id = (int) jsonObj.get("id");
-        System.out.println("**************createdOrderId************\n"+id);
+        log.info("**************createdOrderId************\n"+id);
         
         // When
         RequestSpecification putRequest = RestAssured.given();
@@ -61,11 +61,11 @@ public class putApiTakeOrder extends baseClass{
         jsonObj = new JSONObject(response.asString());
         
         int fetchedId = (int) jsonObj.get("id");
-        System.out.println("**************fetchedOrderId************\n"+id);
+        log.info("**************fetchedOrderId************\n"+id);
         assertThat(fetchedId,equalTo(id));
         
         String actualStatus = (String) jsonObj.get("status");
-        System.out.println("**************StatusOfOrder************\n"+actualStatus);
+        log.info("**************StatusOfOrder************\n"+actualStatus);
         assertThat(actualStatus,equalTo("ONGOING"));
         
     }
@@ -85,7 +85,7 @@ public class putApiTakeOrder extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -97,7 +97,7 @@ public class putApiTakeOrder extends baseClass{
         assertThat(statusCode, is(HttpStatus.SC_CREATED));            
         JSONObject jsonObj = new JSONObject(response.asString());
         int id = (int) jsonObj.get("id");
-        System.out.println("**************createdOrderId************"+id);
+        log.info("**************createdOrderId************\n"+id);
         
         // When
         RequestSpecification putRequest = RestAssured.given();
@@ -124,7 +124,7 @@ public class putApiTakeOrder extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -136,7 +136,7 @@ public class putApiTakeOrder extends baseClass{
         assertThat(statusCode, is(HttpStatus.SC_CREATED));            
         JSONObject jsonObj = new JSONObject(response.asString());
         int id = (int) jsonObj.get("id");
-        System.out.println("**************createdOrderId************"+id);
+        log.info("**************createdOrderId************\n"+id);
         
      // When
         RequestSpecification putRequest = RestAssured.given();

@@ -43,7 +43,7 @@ public class postApi extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -60,7 +60,7 @@ public class postApi extends baseClass{
             
         JSONObject jsonObj = new JSONObject(response.asString());
         int id = (int) jsonObj.get("id");
-        System.out.println(id);
+        log.info(id);
     }
 	
 	@Test
@@ -77,7 +77,7 @@ public class postApi extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrderAtSpecificTime.placeOrderJsonAtSpecificTime(lattitude, longitude, timeStamp);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -94,7 +94,7 @@ public class postApi extends baseClass{
             
         JSONObject jsonObj = new JSONObject(response.asString());
         int id = (int) jsonObj.get("id");
-        System.out.println(id);
+        log.info(id);
     }
 	
 	
@@ -114,7 +114,7 @@ public class postApi extends baseClass{
 		
 		
 		JSONObject input_json = placeOrderAtSpecificTime.placeOrderJsonAtSpecificTime(lattitude, longitude, invalidTimeFormat);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -152,7 +152,7 @@ public class postApi extends baseClass{
 			}
 		}
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -185,7 +185,7 @@ public class postApi extends baseClass{
 		}
 		
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -217,7 +217,7 @@ public class postApi extends baseClass{
 		}
 		
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -248,7 +248,7 @@ public class postApi extends baseClass{
 			longitude.add(Double.valueOf(baseClass.getValue(2, row)));
 		}
 		JSONObject input_json = placeOrderAtSpecificTime.placeOrderJsonAtSpecificTime(lattitude, longitude, timeStamp);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
@@ -281,7 +281,7 @@ public class postApi extends baseClass{
 		longitude.add(Double.valueOf(baseClass.getValue(2, 1)));
 		
 		JSONObject input_json = placeOrder.placeOrderJson(lattitude, longitude);
-		System.out.println("******************Input JSON*****************\n"+input_json);		
+		log.info("******************Input JSON*****************\n"+input_json);		
 		
 		// Given 
 	    RestAssured.baseURI = baseUri+":"+port;
