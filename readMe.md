@@ -1,4 +1,4 @@
-REST API Challenge
+# REST API Challenge
 
 We have APIs to process orders and require you to make sure it's functioning correctly with black box testing. The API does these tasks:
 1.	Place Order
@@ -6,6 +6,8 @@ We have APIs to process orders and require you to make sure it's functioning cor
 3.	Driver to Take the Order
 4.	Driver to Complete the Order
 5.	Cancel Order
+
+## Getting Started
 
 Order Flow
 
@@ -20,14 +22,14 @@ graph TD;    ASSIGNING-->ONGOING;
              ONGOING-->COMPLETED;
              ONGOING-->CANCELLED;
 	
-Prerequisites
+### Prerequisites
 Configure Github repository Project in Eclipse.
 
-Installing
+### Installing
 External Jars from the external_jars folder under root directory should be added in Java Build Path and TestNG Library should be added.
 
-Running the tests
+## Running the tests
 Go to the root directory under RestApiChallenge browse your testNG.xml  right click and select Run as >>run TestNG Suite 
 
-To view Report 
+## To view Report 
 Go to test-output/Default suite/Default test.html
