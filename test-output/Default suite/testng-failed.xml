@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.rest.api.postApi">
+        <methods>
+          <include name="test_04_place_order_not_placed_with_incorrect_location_of_one_stop" invocation-numbers="0 1"/>
+          <include name="test_08_verify_order_not_placed_with_identical_two_stops"/>
+          <include name="test_05_verify_order_not_placed_with_incorrect_locations_of_all_stops" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.rest.api.postApi -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
