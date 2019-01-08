@@ -1,4 +1,4 @@
-# REST API Challenge
+/test-output/Suite1/all-tests.html# REST API Challenge
 
 We have APIs to process orders and require you to make sure it's functioning correctly with black box testing. The API does these tasks:
 1.	Place Order
@@ -32,4 +32,4 @@ External Jars from the external_jars folder under root directory should be added
 Go to the root directory under RestApiChallenge browse your testNG.xml  right click and select Run as >>run TestNG Suite 
 
 ## To view Report 
-Go to test-output/Default suite/Default test.html
+Go to the root directory under RestApiChallenge/test-output/Suite1/all-tests.html
