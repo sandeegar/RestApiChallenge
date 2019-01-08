@@ -1,4 +1,4 @@
-/test-output/Suite1/all-tests.html# REST API Challenge
+# REST API Challenge
 
 We have APIs to process orders and require you to make sure it's functioning correctly with black box testing. The API does these tasks:
 1.	Place Order
