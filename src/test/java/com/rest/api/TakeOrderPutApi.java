@@ -29,67 +29,91 @@ public class TakeOrderPutApi extends BaseClass{
 	
 	@Test
 	public void test_01_verify_take_order_with_specific_order_id() throws Exception {
-		//Given
-		JSONObject inputJson = JsonUtil.placeOrderJson(lattitude, longitude);
-		int id = Utility.placeOrderAndGetId(inputJson, httpRequest, path);
-        
-        // When
-        RequestSpecification putRequest = RestAssured.given();
-        Response response = putRequest.put(path+"/"+id+"/take");
-        
-        // Then
-        int statusCode = response.getStatusCode();
-        assertThat(statusCode, is(HttpStatus.SC_OK));            
-        JSONObject jsonObj = new JSONObject(response.asString());
-        
-        int fetchedId = (Integer) jsonObj.get("id");
-        log.info("**************fetchedOrderId************\n"+id);
-        assertThat(fetchedId,equalTo(id));
-        
-        String actualStatus = (String) jsonObj.get("status");
-        log.info("**************StatusOfOrder************\n"+actualStatus);
-        assertThat(actualStatus,equalTo("ONGOING"));
+		try {
+			//Given
+			JSONObject inputJson = JsonUtil.placeOrderJson(lattitude, longitude);
+			int id = Utility.placeOrderAndGetId(inputJson, httpRequest, path);
+	        
+	        // When
+	        RequestSpecification putRequest = RestAssured.given();
+	        Response response = putRequest.put(path+"/"+id+"/take");
+	        
+	        // Then
+	        int statusCode = response.getStatusCode();
+	        assertThat(statusCode, is(HttpStatus.SC_OK));            
+	        JSONObject jsonObj = new JSONObject(response.asString());
+	        
+	        int fetchedId = (Integer) jsonObj.get("id");
+	        log.info("**************fetchedOrderId************\n"+id);
+	        assertThat(fetchedId,equalTo(id));
+	        
+	        String actualStatus = (String) jsonObj.get("status");
+	        log.info("**************StatusOfOrder************\n"+actualStatus);
+	        assertThat(actualStatus,equalTo("ONGOING"));
+		}
+		
+		catch (Exception e) {
+			log.error("There is an Execption", e);
+		}
         
     }
 	
 	
 	@Test(dataProvider = "invalidIds", dataProviderClass = InputDataProvider.class)
 	public void test_02_verify_order_not_taken_with_invalid_order_id(String invalidId) throws Exception {	
-		// When
-        RequestSpecification putRequest = RestAssured.given();
-        Response response = putRequest.put(path+"/"+invalidId+"/take");
-        
-        // Then
-        int statusCode = response.getStatusCode();
-        assertThat(statusCode, is(HttpStatus.SC_NOT_FOUND));         
+		try {
+			// When
+	        RequestSpecification putRequest = RestAssured.given();
+	        Response response = putRequest.put(path+"/"+invalidId+"/take");
+	        
+	        // Then
+	        int statusCode = response.getStatusCode();
+	        assertThat(statusCode, is(HttpStatus.SC_NOT_FOUND));      
+		}
+		
+		catch (Exception e) {
+			log.error("There is an Execption", e);
+		}
         
     }
 	
 	
 	@Test(dataProvider = "invalidTakeEndPoint", dataProviderClass = InputDataProvider.class)
-	public void test_03_verify_order_not_taken_with_invalid_end_point(String invalidEndPoint) throws Exception {		     
-        // When
-        RequestSpecification putRequest = RestAssured.given();
-        Response response = putRequest.put(invalidEndPoint);
-        
-        // Then
-        int statusCode = response.getStatusCode();
-        assertThat(statusCode, is(HttpStatus.SC_NOT_FOUND));          
+	public void test_03_verify_order_not_taken_with_invalid_end_point(String invalidEndPoint) throws Exception {
+		try {
+	        // When
+	        RequestSpecification putRequest = RestAssured.given();
+	        Response response = putRequest.put(invalidEndPoint);
+	        
+	        // Then
+	        int statusCode = response.getStatusCode();
+	        assertThat(statusCode, is(HttpStatus.SC_NOT_FOUND));    
+		}
+		
+		catch (Exception e) {
+			log.error("There is an Execption", e);
+		}
         
      }
 	
 	@Test
 	public void test_04_verify_order_not_taken_without_placing_it() throws Exception {	
-		//Given
-	    int id = (int) Math.random();
-	    		
-        // When
-        RequestSpecification putRequest = RestAssured.given();
-        Response response = putRequest.put(path+"/"+id+"/take");
-        
-        // Then
-        int statusCode = response.getStatusCode();
-        assertThat(statusCode, is(HttpStatus.SC_NOT_FOUND));            
+		try {
+			//Given
+		    int id = (int) Math.random();
+		    		
+	        // When
+	        RequestSpecification putRequest = RestAssured.given();
+	        Response response = putRequest.put(path+"/"+id+"/take");
+	        
+	        // Then
+	        int statusCode = response.getStatusCode();
+	        assertThat(statusCode, is(HttpStatus.SC_NOT_FOUND));  
+		}
+		
+		catch (Exception e) {
+			log.error("There is an Execption", e);
+		}
                 
     }
 

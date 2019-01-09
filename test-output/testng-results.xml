@@ -1,42 +1,604 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="19" passed="18">
+<testng-results skipped="0" failed="5" ignored="4" total="91" passed="82">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4950" started-at="2019-01-09T10:27:36Z" finished-at="2019-01-09T10:27:41Z">
+  <suite name="Rest-API-Testing" duration-ms="6692" started-at="2019-01-09T12:00:32Z" finished-at="2019-01-09T12:00:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4950" started-at="2019-01-09T10:27:36Z" finished-at="2019-01-09T10:27:41Z">
-      <class name="com.rest.api.CancelOrderPutApi">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="initialize" is-config="true" duration-ms="418" started-at="2019-01-09T10:27:36Z" finished-at="2019-01-09T10:27:36Z">
+    <test name="Regression-Suite" duration-ms="6692" started-at="2019-01-09T12:00:32Z" finished-at="2019-01-09T12:00:39Z">
+      <class name="com.rest.api.CompleteOrderPutApi">
+        <test-method status="PASS" signature="test_01_verify_complete_an_ongoing_order_with_specific_order_id()[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_01_verify_complete_an_ongoing_order_with_specific_order_id" duration-ms="1" started-at="2019-01-09T12:00:39Z" finished-at="2019-01-09T12:00:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="test_01_verify_cancel_an_assigned_order_with_specific_order_id()[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_01_verify_cancel_an_assigned_order_with_specific_order_id" duration-ms="3147" started-at="2019-01-09T10:27:36Z" finished-at="2019-01-09T10:27:40Z">
+        </test-method> <!-- test_01_verify_complete_an_ongoing_order_with_specific_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="1" started-at="2019-01-09T12:00:39Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="1" started-at="2019-01-09T12:00:39Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SampleString]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="0" started-at="2019-01-09T12:00:39Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="1" started-at="2019-01-09T12:00:39Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10-09-1984]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="1" started-at="2019-01-09T12:00:39Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12.34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="1" started-at="2019-01-09T12:00:39Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Select * from orders;]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="2" started-at="2019-01-09T12:00:39Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[v1/order/1/complete]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="7" started-at="2019-01-09T12:00:39Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.000000000034/orders/1/complete]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="1" started-at="2019-01-09T12:00:39Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890/orders/1/complete]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="1" started-at="2019-01-09T12:00:39Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[String/orders/1/complete]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="1" started-at="2019-01-09T12:00:39Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()/orders/1/complete]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="1" started-at="2019-01-09T12:00:39Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[select* from orders/orders/1/complete]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="1" started-at="2019-01-09T12:00:39Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234.9089/orders/1/complete]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="1" started-at="2019-01-09T12:00:39Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[v1/order/1/completed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_04_verify_order_not_completed_without_placing_it()[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_04_verify_order_not_completed_without_placing_it" duration-ms="36" started-at="2019-01-09T12:00:39Z" finished-at="2019-01-09T12:00:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_04_verify_order_not_completed_without_placing_it -->
+        <test-method status="PASS" signature="test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id()[pri:0, instance:com.rest.api.CompleteOrderPutApi@7e2d773b]" name="test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id" duration-ms="1" started-at="2019-01-09T12:00:39Z" finished-at="2019-01-09T12:00:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id -->
+      </class> <!-- com.rest.api.CompleteOrderPutApi -->
+      <class name="com.rest.api.FetchOrderApi">
+        <test-method status="PASS" signature="test_01_verify_retrieve_valid_order_with_id()[pri:0, instance:com.rest.api.FetchOrderApi@467aecef]" name="test_01_verify_retrieve_valid_order_with_id" duration-ms="8" started-at="2019-01-09T12:00:38Z" finished-at="2019-01-09T12:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01_verify_retrieve_valid_order_with_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.FetchOrderApi@467aecef]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="39" started-at="2019-01-09T12:00:38Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_retrieved_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.FetchOrderApi@467aecef]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="22" started-at="2019-01-09T12:00:38Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SampleString]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_retrieved_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.FetchOrderApi@467aecef]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="17" started-at="2019-01-09T12:00:38Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_retrieved_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.FetchOrderApi@467aecef]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="20" started-at="2019-01-09T12:00:38Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10-09-1984]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_retrieved_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.FetchOrderApi@467aecef]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="21" started-at="2019-01-09T12:00:38Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12.34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_retrieved_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.FetchOrderApi@467aecef]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="241" started-at="2019-01-09T12:00:38Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Select * from orders;]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_retrieved_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.FetchOrderApi@467aecef]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="17" started-at="2019-01-09T12:00:38Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[v1/order/1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_retrieved_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.FetchOrderApi@467aecef]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="22" started-at="2019-01-09T12:00:38Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.000000000034/orders/1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_retrieved_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.FetchOrderApi@467aecef]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="20" started-at="2019-01-09T12:00:38Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890/orders/1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_retrieved_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.FetchOrderApi@467aecef]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="24" started-at="2019-01-09T12:00:38Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[String/orders/1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_retrieved_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.FetchOrderApi@467aecef]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="21" started-at="2019-01-09T12:00:38Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()/orders/1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_retrieved_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.FetchOrderApi@467aecef]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="19" started-at="2019-01-09T12:00:38Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[select* from orders/orders/1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_retrieved_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.FetchOrderApi@467aecef]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="19" started-at="2019-01-09T12:00:38Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234.9089/orders/1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_retrieved_with_invalid_end_point -->
+      </class> <!-- com.rest.api.FetchOrderApi -->
+      <class name="com.rest.api.CancelOrderPutApi">
+        <test-method status="PASS" signature="test_01_verify_cancel_an_assigned_order_with_specific_order_id()[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_01_verify_cancel_an_assigned_order_with_specific_order_id" duration-ms="1" started-at="2019-01-09T12:00:38Z" finished-at="2019-01-09T12:00:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_verify_cancel_an_assigned_order_with_specific_order_id -->
-        <test-method status="PASS" signature="test_02_verify_cancel_an_ongoing_order_with_specific_order_id()[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_02_verify_cancel_an_ongoing_order_with_specific_order_id" duration-ms="610" started-at="2019-01-09T10:27:40Z" finished-at="2019-01-09T10:27:40Z">
+        <test-method status="PASS" signature="test_02_verify_cancel_an_ongoing_order_with_specific_order_id()[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_02_verify_cancel_an_ongoing_order_with_specific_order_id" duration-ms="1" started-at="2019-01-09T12:00:38Z" finished-at="2019-01-09T12:00:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_cancel_an_ongoing_order_with_specific_order_id -->
-        <test-method status="PASS" signature="test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id()[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id" duration-ms="422" started-at="2019-01-09T10:27:40Z" finished-at="2019-01-09T10:27:41Z">
+        <test-method status="PASS" signature="test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id()[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id" duration-ms="1" started-at="2019-01-09T12:00:38Z" finished-at="2019-01-09T12:00:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id -->
-        <test-method status="FAIL" signature="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id()[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id" duration-ms="385" started-at="2019-01-09T10:27:41Z" finished-at="2019-01-09T10:27:41Z">
+        <test-method status="PASS" signature="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id()[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id" duration-ms="1" started-at="2019-01-09T12:00:38Z" finished-at="2019-01-09T12:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id -->
+        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="29" started-at="2019-01-09T12:00:38Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="31" started-at="2019-01-09T12:00:38Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SampleString]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="22" started-at="2019-01-09T12:00:38Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="20" started-at="2019-01-09T12:00:38Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10-09-1984]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="19" started-at="2019-01-09T12:00:38Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12.34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="19" started-at="2019-01-09T12:00:38Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Select * from orders;]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="20" started-at="2019-01-09T12:00:39Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[v1/order/1/cancel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="23" started-at="2019-01-09T12:00:39Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.000000000034/orders/1/cancel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="24" started-at="2019-01-09T12:00:39Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890/orders/1/cancel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="20" started-at="2019-01-09T12:00:39Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[String/orders/1/cancel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="22" started-at="2019-01-09T12:00:39Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()/orders/1/cancel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="22" started-at="2019-01-09T12:00:39Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[select* from orders/orders/1/cancel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="17" started-at="2019-01-09T12:00:39Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234.9089/orders/1/cancel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="21" started-at="2019-01-09T12:00:39Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T12:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[v1/order/1/cancelled]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_07_verify_order_not_cancelled_without_placing_it()[pri:0, instance:com.rest.api.CancelOrderPutApi@4d50efb8]" name="test_07_verify_order_not_cancelled_without_placing_it" duration-ms="19" started-at="2019-01-09T12:00:39Z" finished-at="2019-01-09T12:00:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_07_verify_order_not_cancelled_without_placing_it -->
+      </class> <!-- com.rest.api.CancelOrderPutApi -->
+      <class name="com.rest.api.PlaceOrderApi">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="initialize" is-config="true" duration-ms="414" started-at="2019-01-09T12:00:32Z" finished-at="2019-01-09T12:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="test_01_verify_placing_an_order()[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_01_verify_placing_an_order" duration-ms="2233" started-at="2019-01-09T12:00:32Z" finished-at="2019-01-09T12:00:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01_verify_placing_an_order -->
+        <test-method status="PASS" signature="test_02_verify_placing_an_order_at_specific_time()[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_02_verify_placing_an_order_at_specific_time" duration-ms="451" started-at="2019-01-09T12:00:35Z" finished-at="2019-01-09T12:00:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_placing_an_order_at_specific_time -->
+        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="31" started-at="2019-01-09T12:00:35Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T12:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_placed_with_invalid_time_format -->
+        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="34" started-at="2019-01-09T12:00:35Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T12:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SampleString]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_placed_with_invalid_time_format -->
+        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="30" started-at="2019-01-09T12:00:35Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T12:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_placed_with_invalid_time_format -->
+        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="42" started-at="2019-01-09T12:00:35Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T12:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10-09-1984]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_placed_with_invalid_time_format -->
+        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="32" started-at="2019-01-09T12:00:35Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T12:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12.34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_placed_with_invalid_time_format -->
+        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="31" started-at="2019-01-09T12:00:35Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T12:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Select * from orders;]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_placed_with_invalid_time_format -->
+        <test-method status="FAIL" signature="test_04_verify_order_not_placed_with_incorrect_location_of_one_stop(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_04_verify_order_not_placed_with_incorrect_location_of_one_stop" duration-ms="527" started-at="2019-01-09T12:00:35Z" data-provider="invalidLattitude" finished-at="2019-01-09T12:00:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
-Expected: is <422>
-     but: was <200>]]>
+Expected: is <400>
+     but: was <201>]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
-Expected: is <422>
-     but: was <200>
+Expected: is <400>
+     but: was <201>
 at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.CancelOrderPutApi.test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id(CancelOrderPutApi.java:178)
+at com.rest.api.PlaceOrderApi.test_04_verify_order_not_placed_with_incorrect_location_of_one_stop(PlaceOrderApi.java:93)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -67,8 +629,296 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id -->
-        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="21" started-at="2019-01-09T10:27:41Z" data-provider="invalidIds" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_04_verify_order_not_placed_with_incorrect_location_of_one_stop -->
+        <test-method status="FAIL" signature="test_04_verify_order_not_placed_with_incorrect_location_of_one_stop(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_04_verify_order_not_placed_with_incorrect_location_of_one_stop" duration-ms="379" started-at="2019-01-09T12:00:36Z" data-provider="invalidLattitude" finished-at="2019-01-09T12:00:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.000000000034]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <400>
+     but: was <201>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <400>
+     but: was <201>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PlaceOrderApi.test_04_verify_order_not_placed_with_incorrect_location_of_one_stop(PlaceOrderApi.java:93)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_04_verify_order_not_placed_with_incorrect_location_of_one_stop -->
+        <test-method status="FAIL" signature="test_05_verify_order_not_placed_with_incorrect_locations_of_stops(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_05_verify_order_not_placed_with_incorrect_locations_of_stops" duration-ms="368" started-at="2019-01-09T12:00:36Z" data-provider="invalidLattitude" finished-at="2019-01-09T12:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <400>
+     but: was <201>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <400>
+     but: was <201>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PlaceOrderApi.test_05_verify_order_not_placed_with_incorrect_locations_of_stops(PlaceOrderApi.java:121)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05_verify_order_not_placed_with_incorrect_locations_of_stops -->
+        <test-method status="FAIL" signature="test_05_verify_order_not_placed_with_incorrect_locations_of_stops(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_05_verify_order_not_placed_with_incorrect_locations_of_stops" duration-ms="446" started-at="2019-01-09T12:00:37Z" data-provider="invalidLattitude" finished-at="2019-01-09T12:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.000000000034]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <400>
+     but: was <201>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <400>
+     but: was <201>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PlaceOrderApi.test_05_verify_order_not_placed_with_incorrect_locations_of_stops(PlaceOrderApi.java:121)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05_verify_order_not_placed_with_incorrect_locations_of_stops -->
+        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="45" started-at="2019-01-09T12:00:37Z" data-provider="invalidEndPoint" finished-at="2019-01-09T12:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[v1/order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_placed_with_incorrect_end_point -->
+        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="30" started-at="2019-01-09T12:00:37Z" data-provider="invalidEndPoint" finished-at="2019-01-09T12:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.000000000034/orders]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_placed_with_incorrect_end_point -->
+        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="30" started-at="2019-01-09T12:00:37Z" data-provider="invalidEndPoint" finished-at="2019-01-09T12:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890/orders]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_placed_with_incorrect_end_point -->
+        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="40" started-at="2019-01-09T12:00:37Z" data-provider="invalidEndPoint" finished-at="2019-01-09T12:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[String/orders]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_placed_with_incorrect_end_point -->
+        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="24" started-at="2019-01-09T12:00:37Z" data-provider="invalidEndPoint" finished-at="2019-01-09T12:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()/orders]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_placed_with_incorrect_end_point -->
+        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="22" started-at="2019-01-09T12:00:37Z" data-provider="invalidEndPoint" finished-at="2019-01-09T12:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[select* from orders/orders]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_placed_with_incorrect_end_point -->
+        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="28" started-at="2019-01-09T12:00:37Z" data-provider="invalidEndPoint" finished-at="2019-01-09T12:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234.9089/orders]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_order_not_placed_with_incorrect_end_point -->
+        <test-method status="PASS" signature="test_07_verify_order_not_placed_in_past_time()[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_07_verify_order_not_placed_in_past_time" duration-ms="29" started-at="2019-01-09T12:00:37Z" finished-at="2019-01-09T12:00:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_07_verify_order_not_placed_in_past_time -->
+        <test-method status="FAIL" signature="test_08_verify_order_not_placed_with_identical_two_stops()[pri:0, instance:com.rest.api.PlaceOrderApi@3dfc5fb8]" name="test_08_verify_order_not_placed_with_identical_two_stops" duration-ms="527" started-at="2019-01-09T12:00:37Z" finished-at="2019-01-09T12:00:38Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <400>
+     but: was <201>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <400>
+     but: was <201>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PlaceOrderApi.test_08_verify_order_not_placed_with_identical_two_stops(PlaceOrderApi.java:195)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_08_verify_order_not_placed_with_identical_two_stops -->
+      </class> <!-- com.rest.api.PlaceOrderApi -->
+      <class name="com.rest.api.TakeOrderPutApi">
+        <test-method status="PASS" signature="test_01_verify_take_order_with_specific_order_id()[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_01_verify_take_order_with_specific_order_id" duration-ms="1" started-at="2019-01-09T12:00:39Z" finished-at="2019-01-09T12:00:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01_verify_take_order_with_specific_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="26" started-at="2019-01-09T12:00:39Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:39Z">
           <params>
             <param index="0">
               <value>
@@ -78,8 +928,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="20" started-at="2019-01-09T10:27:41Z" data-provider="invalidIds" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_02_verify_order_not_taken_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="19" started-at="2019-01-09T12:00:39Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:39Z">
           <params>
             <param index="0">
               <value>
@@ -89,8 +939,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="31" started-at="2019-01-09T10:27:41Z" data-provider="invalidIds" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_02_verify_order_not_taken_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="15" started-at="2019-01-09T12:00:39Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:39Z">
           <params>
             <param index="0">
               <value>
@@ -100,8 +950,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="25" started-at="2019-01-09T10:27:41Z" data-provider="invalidIds" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_02_verify_order_not_taken_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="17" started-at="2019-01-09T12:00:39Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:39Z">
           <params>
             <param index="0">
               <value>
@@ -111,8 +961,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="22" started-at="2019-01-09T10:27:41Z" data-provider="invalidIds" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_02_verify_order_not_taken_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="18" started-at="2019-01-09T12:00:39Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:39Z">
           <params>
             <param index="0">
               <value>
@@ -122,8 +972,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="23" started-at="2019-01-09T10:27:41Z" data-provider="invalidIds" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_02_verify_order_not_taken_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="17" started-at="2019-01-09T12:00:39Z" data-provider="invalidIds" finished-at="2019-01-09T12:00:39Z">
           <params>
             <param index="0">
               <value>
@@ -133,100 +983,100 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="17" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_02_verify_order_not_taken_with_invalid_order_id -->
+        <test-method status="PASS" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="22" started-at="2019-01-09T12:00:39Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T12:00:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[v1/order/1/cancel]]>
+                <![CDATA[v1/order/1/take]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="22" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="17" started-at="2019-01-09T12:00:39Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T12:00:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[.000000000034/orders/1/cancel]]>
+                <![CDATA[.000000000034/orders/1/take]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="18" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="19" started-at="2019-01-09T12:00:39Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T12:00:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[1234567890/orders/1/cancel]]>
+                <![CDATA[1234567890/orders/1/take]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="19" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="19" started-at="2019-01-09T12:00:39Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T12:00:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[String/orders/1/cancel]]>
+                <![CDATA[String/orders/1/take]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="24" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="17" started-at="2019-01-09T12:00:39Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T12:00:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[!@#$%^&*()/orders/1/cancel]]>
+                <![CDATA[!@#$%^&*()/orders/1/take]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="27" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="19" started-at="2019-01-09T12:00:39Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T12:00:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[select* from orders/orders/1/cancel]]>
+                <![CDATA[select* from orders/orders/1/take]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="20" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="18" started-at="2019-01-09T12:00:39Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T12:00:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[1234.9089/orders/1/cancel]]>
+                <![CDATA[1234.9089/orders/1/take]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="23" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="21" started-at="2019-01-09T12:00:39Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T12:00:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[v1/order/1/cancelled]]>
+                <![CDATA[v1/order/1/taken]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_07_verify_order_not_cancelled_without_placing_it()[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_07_verify_order_not_cancelled_without_placing_it" duration-ms="26" started-at="2019-01-09T10:27:41Z" finished-at="2019-01-09T10:27:41Z">
+        </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_04_verify_order_not_taken_without_placing_it()[pri:0, instance:com.rest.api.TakeOrderPutApi@2173f6d9]" name="test_04_verify_order_not_taken_without_placing_it" duration-ms="23" started-at="2019-01-09T12:00:39Z" finished-at="2019-01-09T12:00:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_07_verify_order_not_cancelled_without_placing_it -->
-      </class> <!-- com.rest.api.CancelOrderPutApi -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test_04_verify_order_not_taken_without_placing_it -->
+      </class> <!-- com.rest.api.TakeOrderPutApi -->
+    </test> <!-- Regression-Suite -->
+  </suite> <!-- Rest-API-Testing -->
 </testng-results>

@@ -4,6 +4,7 @@
 package com.rest.api;
 
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 
 import org.apache.log4j.Level;
@@ -33,30 +34,51 @@ public class BaseClass {
     
 	@BeforeSuite
 	public void initialize() throws Exception {
-		log.setLevel(Level.DEBUG);	
-		for (int row=1;row<=3; row++)
-		{
-			lattitude.add(Double.valueOf(getValue(1, row)));
-			longitude.add(Double.valueOf(getValue(2, row)));
+		try {
+				log.setLevel(Level.DEBUG);	
+				for (int row=1;row<=3; row++)
+				{
+					lattitude.add(Double.valueOf(getValue(1, row)));
+					longitude.add(Double.valueOf(getValue(2, row)));
+				}
+				
+				RestAssured.baseURI = baseUri+":"+port;		
+				httpRequest = RestAssured.given();
+		        httpRequest.header("Content-Type", "application/json");
 		}
 		
-		RestAssured.baseURI = baseUri+":"+port;		
-		httpRequest = RestAssured.given();
-        httpRequest.header("Content-Type", "application/json");
+		catch (Exception e) {
+			log.error("There is an Execption", e);
+		}
 		
 	}
     
     public BaseClass() throws Exception {
-           String curDir = System.getProperty("user.dir");
-           FileInputStream fi = new FileInputStream(curDir+"\\src\\test\\resources\\test_data.xls");
-           Workbook w = Workbook.getWorkbook(fi);
-           sheet = w.getSheet(0);
-       	   PropertyConfigurator.configure(curDir+"\\src\\log4j.properties");
+    	try {
+	           String curDir = System.getProperty("user.dir");
+	           FileInputStream fi = new FileInputStream(curDir+"\\src\\test\\resources\\test_data.xls");
+	           Workbook w = Workbook.getWorkbook(fi);
+	           sheet = w.getSheet(0);
+	       	   PropertyConfigurator.configure(curDir+"\\src\\log4j.properties");
+    	}
+    	catch(IOException e) {
+    		  log.error("There is an IO Execption", e);
+    	}
     }
     
     public static String getValue(int col, int row) throws Exception{
-           return sheet.getCell(col, row).getContents();
+    	String sheetValue = null;
+    	try {
+            sheetValue = sheet.getCell(col, row).getContents();
+       	}
+    	
+    	catch (Exception e) {
+			log.error("There is an Execption", e);
+		}
+		return sheetValue;
+    	
     }
+    
     
    
 } 

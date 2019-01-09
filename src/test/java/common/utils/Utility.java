@@ -12,7 +12,7 @@ import io.restassured.specification.RequestSpecification;
 public class Utility {
 	
 	public static int placeOrderAndGetId(JSONObject inputJson, RequestSpecification httpRequest, String path) {
-	        httpRequest.body(inputJson.toString());
+	        httpRequest.body(inputJson.toString()).log().all();
 	        Response response = httpRequest.post(path);
 	        int statusCode = response.getStatusCode();
 	        assertThat(statusCode, is(HttpStatus.SC_CREATED));            
