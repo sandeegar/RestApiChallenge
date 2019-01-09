@@ -29,7 +29,7 @@ Configure Github repository Project in Eclipse.
 Install maven 4.0.0 into your system.
 
 ## Running the tests
-Go to the root directory under RestApiChallenge browse your testNG.xml  right click and select Run as >>run TestNG Suite
+Go to the root directory under RestApiChallenge browse your testNG.xml under resources test/resources folder  right click and select Run as >>run TestNG Suite
  
 To run each Test class individually go to the class under com.rest.api package, select the test class, right click and select Run as >>run TestNG Test  
 
