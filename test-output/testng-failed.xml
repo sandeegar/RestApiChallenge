@@ -1,52 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Rest-API-Testing]">
-  <test thread-count="5" name="Regression-Suite(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.api.PostApi">
-        <methods>
-          <include name="initialize"/>
-          <include name="test_08_verify_order_not_placed_with_identical_two_stops"/>
-          <include name="test_05_verify_order_not_placed_with_incorrect_locations_of_stops" invocation-numbers="0 1"/>
-          <include name="test_04_verify_order_not_placed_with_incorrect_location_of_one_stop" invocation-numbers="0 1"/>
-        </methods>
-      </class> <!-- com.rest.api.PostApi -->
-      <class name="com.rest.api.PutApiTakeOrder">
-        <methods>
-          <include name="test_03_verify_order_not_taken_with_invalid_end_point" invocation-numbers="0 1 2 3 4 5 6 7"/>
-          <include name="test_01_verify_take_order_with_specific_order_id"/>
-          <include name="test_02_verify_order_not_taken_with_invalid_order_id" invocation-numbers="0 1 2 3 4 5"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- com.rest.api.PutApiTakeOrder -->
-      <class name="com.rest.api.PutApiCompleteOrder">
-        <methods>
-          <include name="initialize"/>
-          <include name="test_02_verify_order_not_completed_with_invalid_order_id" invocation-numbers="0 1 2 3 4 5"/>
-          <include name="test_01_verify_complete_an_ongoing_order_with_specific_order_id"/>
-          <include name="test_03_verify_order_not_completed_with_invalid_end_point" invocation-numbers="0 1 2 3 4 5 6 7"/>
-          <include name="test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id"/>
-        </methods>
-      </class> <!-- com.rest.api.PutApiCompleteOrder -->
-      <class name="com.rest.api.GetApi">
-        <methods>
-          <include name="test_02_verify_order_not_retrieved_with_invalid_order_id" invocation-numbers="0 1 2 3 4 5"/>
-          <include name="test_01_verify_retrieve_valid_order_with_id"/>
-          <include name="test_03_verify_order_not_retrieved_with_invalid_end_point" invocation-numbers="0 1 2 3 4 5 6"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- com.rest.api.GetApi -->
       <class name="com.rest.api.PutApiCancelOrder">
         <methods>
-          <include name="test_02_verify_cancel_an_ongoing_order_with_specific_order_id"/>
-          <include name="test_05_verify_order_not_cancelled_with_invalid_order_id" invocation-numbers="0 1 2 3 4 5"/>
-          <include name="test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id"/>
           <include name="initialize"/>
-          <include name="test_01_verify_cancel_an_assigned_order_with_specific_order_id"/>
           <include name="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id"/>
-          <include name="test_06_verify_order_not_cancelled_with_invalid_end_point" invocation-numbers="0 1 2 3 4 5 6 7"/>
         </methods>
       </class> <!-- com.rest.api.PutApiCancelOrder -->
     </classes>
-  </test> <!-- Regression-Suite(failed) -->
-</suite> <!-- Failed suite [Rest-API-Testing] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
