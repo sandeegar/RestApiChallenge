@@ -13,7 +13,7 @@ public class JsonUtil {
 		
 		
 	public static JSONObject placeOrderJson(ArrayList<Double> lattitude, ArrayList<Double> longitude) throws Exception {		
-		for (int stop_index=0; stop_index < lattitude.size(); stop_index++)		
+		for (int stop_index=0; stop_index < 3; stop_index++)		
 		{
 			stopsParams = new JSONObject();
 			stopsParams.put("lat", lattitude.get(stop_index));
@@ -29,7 +29,7 @@ public class JsonUtil {
 	}	
 	
 	public static JSONObject placeOrderJsonAtSpecificTime(ArrayList<Double> lattitude, ArrayList<Double> longitude, String timeStamp) throws Exception {			
-		for (int stop_index=0; stop_index < lattitude.size(); stop_index++)		
+		for (int stop_index=0; stop_index < 3; stop_index++)		
 		{
 			stopsParams = new JSONObject();
 			stopsParams.put("lat", lattitude.get(stop_index));

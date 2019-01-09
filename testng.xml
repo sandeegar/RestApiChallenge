@@ -2,11 +2,11 @@
 <suite name="Rest-API-Testing" verbose="1">
     <test name="Regression-Suite">
         <classes>
-      		<class name="com.rest.api.PostApi"/>
-      		<class name="com.rest.api.GetApi"/>
-      		<class name="com.rest.api.PutApiCancelOrder"/>
-      		<class name="com.rest.api.PutApiCompleteOrder"/>
-      		<class name="com.rest.api.PutApiTakeOrder"/>
+      		<class name="com.rest.api.PlaceOrderApi"/>
+      		<class name="com.rest.api.FetchOrderApi"/>
+      		<class name="com.rest.api.CancelOrderPutApi"/>
+      		<class name="com.rest.api.CompleteOrderPutApi"/>
+      		<class name="com.rest.api.TakeOrderPutApi"/>
     	</classes>
     </test>
 </suite>

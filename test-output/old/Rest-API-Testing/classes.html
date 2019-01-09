@@ -4,26 +4,30 @@
 <th>Method name</th>
 <th>Groups</th>
 </tr><tr>
-<td>com.rest.api.PutApiTakeOrder</td>
+<td>com.rest.api.CompleteOrderPutApi</td>
 <td>&nbsp;</td><td>&nbsp;</td></tr>
 <tr>
 <td align='center' colspan='3'>@Test</td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td>test_02_verify_order_not_taken_with_invalid_order_id</td>
+<td>test_02_verify_order_not_completed_with_invalid_order_id</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
-<td>test_04_verify_order_not_taken_without_placing_it</td>
+<td>test_04_verify_order_not_completed_without_placing_it</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
-<td>test_03_verify_order_not_taken_with_invalid_end_point</td>
+<td>test_01_verify_complete_an_ongoing_order_with_specific_order_id</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
-<td>test_01_verify_take_order_with_specific_order_id</td>
+<td>test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>test_03_verify_order_not_completed_with_invalid_end_point</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td align='center' colspan='3'>@BeforeClass</td>
@@ -38,7 +42,7 @@
 <td align='center' colspan='3'>@AfterClass</td>
 </tr>
 <tr>
-<td>com.rest.api.GetApi</td>
+<td>com.rest.api.FetchOrderApi</td>
 <td>&nbsp;</td><td>&nbsp;</td></tr>
 <tr>
 <td align='center' colspan='3'>@Test</td>
@@ -68,57 +72,7 @@
 <td align='center' colspan='3'>@AfterClass</td>
 </tr>
 <tr>
-<td>com.rest.api.PostApi</td>
-<td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr>
-<td align='center' colspan='3'>@Test</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>test_06_verify_order_not_placed_with_incorrect_end_point</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td>&nbsp;</td>
-<td>test_07_verify_order_not_placed_in_past_time</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td>&nbsp;</td>
-<td>test_02_verify_placing_an_order_at_specific_time</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td>&nbsp;</td>
-<td>test_05_verify_order_not_placed_with_incorrect_locations_of_stops</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td>&nbsp;</td>
-<td>test_03_verify_order_not_placed_with_invalid_time_format</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td>&nbsp;</td>
-<td>test_08_verify_order_not_placed_with_identical_two_stops</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td>&nbsp;</td>
-<td>test_01_verify_placing_an_order</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td>&nbsp;</td>
-<td>test_04_verify_order_not_placed_with_incorrect_location_of_one_stop</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td align='center' colspan='3'>@BeforeClass</td>
-</tr>
-<tr>
-<td align='center' colspan='3'>@BeforeMethod</td>
-</tr>
-<tr>
-<td align='center' colspan='3'>@AfterMethod</td>
-</tr>
-<tr>
-<td align='center' colspan='3'>@AfterClass</td>
-</tr>
-<tr>
-<td>com.rest.api.PutApiCancelOrder</td>
+<td>com.rest.api.CancelOrderPutApi</td>
 <td>&nbsp;</td><td>&nbsp;</td></tr>
 <tr>
 <td align='center' colspan='3'>@Test</td>
@@ -164,30 +118,76 @@
 <td align='center' colspan='3'>@AfterClass</td>
 </tr>
 <tr>
-<td>com.rest.api.PutApiCompleteOrder</td>
+<td>com.rest.api.PlaceOrderApi</td>
 <td>&nbsp;</td><td>&nbsp;</td></tr>
 <tr>
 <td align='center' colspan='3'>@Test</td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td>test_02_verify_order_not_completed_with_invalid_order_id</td>
+<td>test_06_verify_order_not_placed_with_incorrect_end_point</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
-<td>test_04_verify_order_not_completed_without_placing_it</td>
+<td>test_07_verify_order_not_placed_in_past_time</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
-<td>test_01_verify_complete_an_ongoing_order_with_specific_order_id</td>
+<td>test_05_verify_order_not_placed_with_incorrect_locations_of_stops</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
-<td>test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id</td>
+<td>test_02_verify_placing_an_order_at_specific_time</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
-<td>test_03_verify_order_not_completed_with_invalid_end_point</td>
+<td>test_03_verify_order_not_placed_with_invalid_time_format</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>test_08_verify_order_not_placed_with_identical_two_stops</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>test_01_verify_placing_an_order</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>test_04_verify_order_not_placed_with_incorrect_location_of_one_stop</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>com.rest.api.TakeOrderPutApi</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>test_02_verify_order_not_taken_with_invalid_order_id</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>test_04_verify_order_not_taken_without_placing_it</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>test_03_verify_order_not_taken_with_invalid_end_point</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>test_01_verify_take_order_with_specific_order_id</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td align='center' colspan='3'>@BeforeClass</td>

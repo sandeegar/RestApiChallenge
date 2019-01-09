@@ -2,41 +2,41 @@
 <testng-results skipped="0" failed="1" ignored="0" total="19" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17205" started-at="2019-01-09T07:16:53Z" finished-at="2019-01-09T07:17:10Z">
+  <suite name="Default suite" duration-ms="4950" started-at="2019-01-09T10:27:36Z" finished-at="2019-01-09T10:27:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17205" started-at="2019-01-09T07:16:53Z" finished-at="2019-01-09T07:17:10Z">
-      <class name="com.rest.api.PutApiCancelOrder">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="initialize" is-config="true" duration-ms="458" started-at="2019-01-09T07:16:53Z" finished-at="2019-01-09T07:16:53Z">
+    <test name="Default test" duration-ms="4950" started-at="2019-01-09T10:27:36Z" finished-at="2019-01-09T10:27:41Z">
+      <class name="com.rest.api.CancelOrderPutApi">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="initialize" is-config="true" duration-ms="418" started-at="2019-01-09T10:27:36Z" finished-at="2019-01-09T10:27:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="test_01_verify_cancel_an_assigned_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_01_verify_cancel_an_assigned_order_with_specific_order_id" duration-ms="3408" started-at="2019-01-09T07:16:53Z" finished-at="2019-01-09T07:16:57Z">
+        <test-method status="PASS" signature="test_01_verify_cancel_an_assigned_order_with_specific_order_id()[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_01_verify_cancel_an_assigned_order_with_specific_order_id" duration-ms="3147" started-at="2019-01-09T10:27:36Z" finished-at="2019-01-09T10:27:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_verify_cancel_an_assigned_order_with_specific_order_id -->
-        <test-method status="PASS" signature="test_02_verify_cancel_an_ongoing_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_02_verify_cancel_an_ongoing_order_with_specific_order_id" duration-ms="592" started-at="2019-01-09T07:16:57Z" finished-at="2019-01-09T07:16:57Z">
+        <test-method status="PASS" signature="test_02_verify_cancel_an_ongoing_order_with_specific_order_id()[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_02_verify_cancel_an_ongoing_order_with_specific_order_id" duration-ms="610" started-at="2019-01-09T10:27:40Z" finished-at="2019-01-09T10:27:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_cancel_an_ongoing_order_with_specific_order_id -->
-        <test-method status="PASS" signature="test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id" duration-ms="635" started-at="2019-01-09T07:16:57Z" finished-at="2019-01-09T07:16:58Z">
+        <test-method status="PASS" signature="test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id()[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id" duration-ms="422" started-at="2019-01-09T10:27:40Z" finished-at="2019-01-09T10:27:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id -->
-        <test-method status="FAIL" signature="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id" duration-ms="557" started-at="2019-01-09T07:16:58Z" finished-at="2019-01-09T07:16:59Z">
+        <test-method status="FAIL" signature="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id()[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id" duration-ms="385" started-at="2019-01-09T10:27:41Z" finished-at="2019-01-09T10:27:41Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
-Expected: is <400>
+Expected: is <422>
      but: was <200>]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
-Expected: is <400>
+Expected: is <422>
      but: was <200>
 at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCancelOrder.test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id(PutApiCancelOrder.java:236)
+at com.rest.api.CancelOrderPutApi.test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id(CancelOrderPutApi.java:178)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -68,7 +68,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id -->
-        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="481" started-at="2019-01-09T07:16:59Z" data-provider="invalidIds" finished-at="2019-01-09T07:16:59Z">
+        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="21" started-at="2019-01-09T10:27:41Z" data-provider="invalidIds" finished-at="2019-01-09T10:27:41Z">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="482" started-at="2019-01-09T07:16:59Z" data-provider="invalidIds" finished-at="2019-01-09T07:17:00Z">
+        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="20" started-at="2019-01-09T10:27:41Z" data-provider="invalidIds" finished-at="2019-01-09T10:27:41Z">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="547" started-at="2019-01-09T07:17:00Z" data-provider="invalidIds" finished-at="2019-01-09T07:17:00Z">
+        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="31" started-at="2019-01-09T10:27:41Z" data-provider="invalidIds" finished-at="2019-01-09T10:27:41Z">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="522" started-at="2019-01-09T07:17:00Z" data-provider="invalidIds" finished-at="2019-01-09T07:17:01Z">
+        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="25" started-at="2019-01-09T10:27:41Z" data-provider="invalidIds" finished-at="2019-01-09T10:27:41Z">
           <params>
             <param index="0">
               <value>
@@ -112,7 +112,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="904" started-at="2019-01-09T07:17:01Z" data-provider="invalidIds" finished-at="2019-01-09T07:17:02Z">
+        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="22" started-at="2019-01-09T10:27:41Z" data-provider="invalidIds" finished-at="2019-01-09T10:27:41Z">
           <params>
             <param index="0">
               <value>
@@ -123,7 +123,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="734" started-at="2019-01-09T07:17:02Z" data-provider="invalidIds" finished-at="2019-01-09T07:17:02Z">
+        <test-method status="PASS" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="23" started-at="2019-01-09T10:27:41Z" data-provider="invalidIds" finished-at="2019-01-09T10:27:41Z">
           <params>
             <param index="0">
               <value>
@@ -134,7 +134,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="733" started-at="2019-01-09T07:17:02Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T07:17:03Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="17" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
           <params>
             <param index="0">
               <value>
@@ -145,7 +145,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="785" started-at="2019-01-09T07:17:03Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T07:17:04Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="22" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
           <params>
             <param index="0">
               <value>
@@ -156,7 +156,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="807" started-at="2019-01-09T07:17:04Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T07:17:05Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="18" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="770" started-at="2019-01-09T07:17:05Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T07:17:05Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="19" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
           <params>
             <param index="0">
               <value>
@@ -178,7 +178,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="787" started-at="2019-01-09T07:17:05Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T07:17:06Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="24" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
           <params>
             <param index="0">
               <value>
@@ -189,7 +189,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="1754" started-at="2019-01-09T07:17:06Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T07:17:08Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="27" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
           <params>
             <param index="0">
               <value>
@@ -200,7 +200,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="1178" started-at="2019-01-09T07:17:08Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T07:17:09Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="20" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
           <params>
             <param index="0">
               <value>
@@ -211,7 +211,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="995" started-at="2019-01-09T07:17:09Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T07:17:10Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="23" started-at="2019-01-09T10:27:41Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T10:27:41Z">
           <params>
             <param index="0">
               <value>
@@ -222,11 +222,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_07_verify_order_not_cancelled_without_placing_it()[pri:0, instance:com.rest.api.PutApiCancelOrder@76b0bfab]" name="test_07_verify_order_not_cancelled_without_placing_it" duration-ms="31" started-at="2019-01-09T07:17:10Z" finished-at="2019-01-09T07:17:10Z">
+        <test-method status="PASS" signature="test_07_verify_order_not_cancelled_without_placing_it()[pri:0, instance:com.rest.api.CancelOrderPutApi@33c7e1bb]" name="test_07_verify_order_not_cancelled_without_placing_it" duration-ms="26" started-at="2019-01-09T10:27:41Z" finished-at="2019-01-09T10:27:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_07_verify_order_not_cancelled_without_placing_it -->
-      </class> <!-- com.rest.api.PutApiCancelOrder -->
+      </class> <!-- com.rest.api.CancelOrderPutApi -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

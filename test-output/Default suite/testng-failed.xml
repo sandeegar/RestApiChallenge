@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.api.PutApiCancelOrder">
+      <class name="com.rest.api.CancelOrderPutApi">
         <methods>
-          <include name="initialize"/>
           <include name="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- com.rest.api.PutApiCancelOrder -->
+      </class> <!-- com.rest.api.CancelOrderPutApi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
