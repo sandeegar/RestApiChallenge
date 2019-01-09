@@ -8,133 +8,505 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Suite1</th></tr>
-<tr><td><a href="#t0">all-tests</a></td><td class="num">81</td><td class="num">0</td><td class="num attn">6</td><td class="num">70,711</td><td></td><td></td></tr>
+<tr><th colspan="7">REST API TESTING</th></tr>
+<tr><td><a href="#t0">Regression Suite</a></td><td class="num">19</td><td class="num">0</td><td class="num attn">68</td><td class="num">23,629</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">all-tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">com.rest.api.postApi</td><td><a href="#m0">test_04_verify_order_not_placed_with_incorrect_location_of_one_stop</a></td><td rowspan="2">1546946907817</td><td rowspan="2">550</td></tr><tr class="failedeven"><td><a href="#m1">test_04_verify_order_not_placed_with_incorrect_location_of_one_stop</a></td></tr><tr class="failedeven"><td><a href="#m2">test_05_verify_order_not_placed_with_incorrect_locations_of_all_stops</a></td><td rowspan="2">1546946909286</td><td rowspan="2">352</td></tr><tr class="failedeven"><td><a href="#m3">test_05_verify_order_not_placed_with_incorrect_locations_of_all_stops</a></td></tr><tr class="failedeven"><td><a href="#m4">test_08_verify_order_not_placed_with_identical_two_stops</a></td><td rowspan="1">1546946912467</td><td rowspan="1">1222</td></tr><tr class="failedodd"><td rowspan="1">com.rest.api.putApiCancelOrder</td><td><a href="#m5">test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id</a></td><td rowspan="1">1546946916025</td><td rowspan="1">766</td></tr><tr><th colspan="4">all-tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="14">com.rest.api.getApi</td><td><a href="#m6">test_01_verify_retrieve_valid_order_with_id</a></td><td rowspan="1">1546946890262</td><td rowspan="1">3247</td></tr><tr class="passedeven"><td><a href="#m7">test_02_verify_order_not_retrieved_with_invalid_order_id</a></td><td rowspan="6">1546946895494</td><td rowspan="6">707</td></tr><tr class="passedeven"><td><a href="#m8">test_02_verify_order_not_retrieved_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m9">test_02_verify_order_not_retrieved_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m10">test_02_verify_order_not_retrieved_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m11">test_02_verify_order_not_retrieved_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m12">test_02_verify_order_not_retrieved_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m13">test_03_verify_order_not_retrieved_with_invalid_end_point</a></td><td rowspan="7">1546946901756</td><td rowspan="7">633</td></tr><tr class="passedeven"><td><a href="#m14">test_03_verify_order_not_retrieved_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m15">test_03_verify_order_not_retrieved_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m16">test_03_verify_order_not_retrieved_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m17">test_03_verify_order_not_retrieved_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m18">test_03_verify_order_not_retrieved_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m19">test_03_verify_order_not_retrieved_with_invalid_end_point</a></td></tr><tr class="passedodd"><td rowspan="16">com.rest.api.postApi</td><td><a href="#m20">test_01_verify_placing_an_order</a></td><td rowspan="1">1546946903108</td><td rowspan="1">1882</td></tr><tr class="passedodd"><td><a href="#m21">test_02_verify_placing_an_order_at_specific_time</a></td><td rowspan="1">1546946904991</td><td rowspan="1">685</td></tr><tr class="passedodd"><td><a href="#m22">test_03_verify_order_not_placed_with_invalid_time_format</a></td><td rowspan="6">1546946906060</td><td rowspan="6">338</td></tr><tr class="passedodd"><td><a href="#m23">test_03_verify_order_not_placed_with_invalid_time_format</a></td></tr><tr class="passedodd"><td><a href="#m24">test_03_verify_order_not_placed_with_invalid_time_format</a></td></tr><tr class="passedodd"><td><a href="#m25">test_03_verify_order_not_placed_with_invalid_time_format</a></td></tr><tr class="passedodd"><td><a href="#m26">test_03_verify_order_not_placed_with_invalid_time_format</a></td></tr><tr class="passedodd"><td><a href="#m27">test_03_verify_order_not_placed_with_invalid_time_format</a></td></tr><tr class="passedodd"><td><a href="#m28">test_06_verify_order_not_placed_with_incorrect_end_point</a></td><td rowspan="7">1546946911749</td><td rowspan="7">354</td></tr><tr class="passedodd"><td><a href="#m29">test_06_verify_order_not_placed_with_incorrect_end_point</a></td></tr><tr class="passedodd"><td><a href="#m30">test_06_verify_order_not_placed_with_incorrect_end_point</a></td></tr><tr class="passedodd"><td><a href="#m31">test_06_verify_order_not_placed_with_incorrect_end_point</a></td></tr><tr class="passedodd"><td><a href="#m32">test_06_verify_order_not_placed_with_incorrect_end_point</a></td></tr><tr class="passedodd"><td><a href="#m33">test_06_verify_order_not_placed_with_incorrect_end_point</a></td></tr><tr class="passedodd"><td><a href="#m34">test_06_verify_order_not_placed_with_incorrect_end_point</a></td></tr><tr class="passedodd"><td><a href="#m35">test_07_verify_order_not_placed_in_past_time</a></td><td rowspan="1">1546946912104</td><td rowspan="1">362</td></tr><tr class="passedeven"><td rowspan="18">com.rest.api.putApiCancelOrder</td><td><a href="#m36">test_01_verify_cancel_an_assigned_order_with_specific_order_id</a></td><td rowspan="1">1546946913691</td><td rowspan="1">748</td></tr><tr class="passedeven"><td><a href="#m37">test_02_verify_cancel_an_ongoing_order_with_specific_order_id</a></td><td rowspan="1">1546946914440</td><td rowspan="1">767</td></tr><tr class="passedeven"><td><a href="#m38">test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id</a></td><td rowspan="1">1546946915208</td><td rowspan="1">816</td></tr><tr class="passedeven"><td><a href="#m39">test_05_verify_order_not_cancelled_with_invalid_order_id</a></td><td rowspan="6">1546946920233</td><td rowspan="6">831</td></tr><tr class="passedeven"><td><a href="#m40">test_05_verify_order_not_cancelled_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m41">test_05_verify_order_not_cancelled_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m42">test_05_verify_order_not_cancelled_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m43">test_05_verify_order_not_cancelled_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m44">test_05_verify_order_not_cancelled_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m45">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td><td rowspan="8">1546946921065</td><td rowspan="8">802</td></tr><tr class="passedeven"><td><a href="#m46">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m47">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m48">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m49">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m50">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m51">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m52">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m53">test_07_verify_order_not_cancelled_without_placing_it</a></td><td rowspan="1">1546946926625</td><td rowspan="1">18</td></tr><tr class="passedodd"><td rowspan="17">com.rest.api.putApiCompleteOrder</td><td><a href="#m54">test_01_verify_complete_an_ongoing_order_with_specific_order_id</a></td><td rowspan="1">1546946926644</td><td rowspan="1">760</td></tr><tr class="passedodd"><td><a href="#m55">test_02_verify_order_not_completed_with_invalid_order_id</a></td><td rowspan="6">1546946928074</td><td rowspan="6">663</td></tr><tr class="passedodd"><td><a href="#m56">test_02_verify_order_not_completed_with_invalid_order_id</a></td></tr><tr class="passedodd"><td><a href="#m57">test_02_verify_order_not_completed_with_invalid_order_id</a></td></tr><tr class="passedodd"><td><a href="#m58">test_02_verify_order_not_completed_with_invalid_order_id</a></td></tr><tr class="passedodd"><td><a href="#m59">test_02_verify_order_not_completed_with_invalid_order_id</a></td></tr><tr class="passedodd"><td><a href="#m60">test_02_verify_order_not_completed_with_invalid_order_id</a></td></tr><tr class="passedodd"><td><a href="#m61">test_03_verify_order_not_completed_with_invalid_end_point</a></td><td rowspan="8">1546946942128</td><td rowspan="8">987</td></tr><tr class="passedodd"><td><a href="#m62">test_03_verify_order_not_completed_with_invalid_end_point</a></td></tr><tr class="passedodd"><td><a href="#m63">test_03_verify_order_not_completed_with_invalid_end_point</a></td></tr><tr class="passedodd"><td><a href="#m64">test_03_verify_order_not_completed_with_invalid_end_point</a></td></tr><tr class="passedodd"><td><a href="#m65">test_03_verify_order_not_completed_with_invalid_end_point</a></td></tr><tr class="passedodd"><td><a href="#m66">test_03_verify_order_not_completed_with_invalid_end_point</a></td></tr><tr class="passedodd"><td><a href="#m67">test_03_verify_order_not_completed_with_invalid_end_point</a></td></tr><tr class="passedodd"><td><a href="#m68">test_03_verify_order_not_completed_with_invalid_end_point</a></td></tr><tr class="passedodd"><td><a href="#m69">test_04_verify_order_not_completed_without_placing_it</a></td><td rowspan="1">1546946943757</td><td rowspan="1">18</td></tr><tr class="passedodd"><td><a href="#m70">test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id</a></td><td rowspan="1">1546946943775</td><td rowspan="1">670</td></tr><tr class="passedeven"><td rowspan="16">com.rest.api.putApiTakeOrder</td><td><a href="#m71">test_01_verify_take_order_with_specific_order_id</a></td><td rowspan="1">1546946944446</td><td rowspan="1">658</td></tr><tr class="passedeven"><td><a href="#m72">test_02_verify_order_not_taken_with_invalid_order_id</a></td><td rowspan="6">1546946947789</td><td rowspan="6">3684</td></tr><tr class="passedeven"><td><a href="#m73">test_02_verify_order_not_taken_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m74">test_02_verify_order_not_taken_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m75">test_02_verify_order_not_taken_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m76">test_02_verify_order_not_taken_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m77">test_02_verify_order_not_taken_with_invalid_order_id</a></td></tr><tr class="passedeven"><td><a href="#m78">test_03_verify_order_not_taken_with_invalid_end_point</a></td><td rowspan="8">1546946960143</td><td rowspan="8">783</td></tr><tr class="passedeven"><td><a href="#m79">test_03_verify_order_not_taken_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m80">test_03_verify_order_not_taken_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m81">test_03_verify_order_not_taken_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m82">test_03_verify_order_not_taken_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m83">test_03_verify_order_not_taken_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m84">test_03_verify_order_not_taken_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m85">test_03_verify_order_not_taken_with_invalid_end_point</a></td></tr><tr class="passedeven"><td><a href="#m86">test_04_verify_order_not_taken_without_placing_it</a></td><td rowspan="1">1546946960927</td><td rowspan="1">24</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">REST API TESTING</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression Suite &#8212; failed</th></tr><tr class="failedeven"><td rowspan="14">com.rest.api.GetApi</td><td><a href="#m0">test_01_verify_retrieve_valid_order_with_id</a></td><td rowspan="1">1547015999103</td><td rowspan="1">211</td></tr><tr class="failedeven"><td><a href="#m1">test_02_verify_order_not_retrieved_with_invalid_order_id</a></td><td rowspan="6">1547016000140</td><td rowspan="6">201</td></tr><tr class="failedeven"><td><a href="#m2">test_02_verify_order_not_retrieved_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m3">test_02_verify_order_not_retrieved_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m4">test_02_verify_order_not_retrieved_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m5">test_02_verify_order_not_retrieved_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m6">test_02_verify_order_not_retrieved_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m7">test_03_verify_order_not_retrieved_with_invalid_end_point</a></td><td rowspan="7">1547016001762</td><td rowspan="7">204</td></tr><tr class="failedeven"><td><a href="#m8">test_03_verify_order_not_retrieved_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m9">test_03_verify_order_not_retrieved_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m10">test_03_verify_order_not_retrieved_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m11">test_03_verify_order_not_retrieved_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m12">test_03_verify_order_not_retrieved_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m13">test_03_verify_order_not_retrieved_with_invalid_end_point</a></td></tr><tr class="failedodd"><td rowspan="5">com.rest.api.PostApi</td><td><a href="#m14">test_04_verify_order_not_placed_with_incorrect_location_of_one_stop</a></td><td rowspan="2">1547015997458</td><td rowspan="2">209</td></tr><tr class="failedodd"><td><a href="#m15">test_04_verify_order_not_placed_with_incorrect_location_of_one_stop</a></td></tr><tr class="failedodd"><td><a href="#m16">test_05_verify_order_not_placed_with_incorrect_locations_of_stops</a></td><td rowspan="2">1547015997670</td><td rowspan="2">215</td></tr><tr class="failedodd"><td><a href="#m17">test_05_verify_order_not_placed_with_incorrect_locations_of_stops</a></td></tr><tr class="failedodd"><td><a href="#m18">test_08_verify_order_not_placed_with_identical_two_stops</a></td><td rowspan="1">1547015998885</td><td rowspan="1">209</td></tr><tr class="failedeven"><td rowspan="18">com.rest.api.PutApiCancelOrder</td><td><a href="#m19">test_01_verify_cancel_an_assigned_order_with_specific_order_id</a></td><td rowspan="1">1547016001968</td><td rowspan="1">521</td></tr><tr class="failedeven"><td><a href="#m20">test_02_verify_cancel_an_ongoing_order_with_specific_order_id</a></td><td rowspan="1">1547016002491</td><td rowspan="1">205</td></tr><tr class="failedeven"><td><a href="#m21">test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id</a></td><td rowspan="1">1547016002699</td><td rowspan="1">220</td></tr><tr class="failedeven"><td><a href="#m22">test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id</a></td><td rowspan="1">1547016002922</td><td rowspan="1">222</td></tr><tr class="failedeven"><td><a href="#m23">test_05_verify_order_not_cancelled_with_invalid_order_id</a></td><td rowspan="6">1547016003783</td><td rowspan="6">204</td></tr><tr class="failedeven"><td><a href="#m24">test_05_verify_order_not_cancelled_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m25">test_05_verify_order_not_cancelled_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m26">test_05_verify_order_not_cancelled_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m27">test_05_verify_order_not_cancelled_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m28">test_05_verify_order_not_cancelled_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m29">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td><td rowspan="8">1547016005836</td><td rowspan="8">199</td></tr><tr class="failedeven"><td><a href="#m30">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m31">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m32">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m33">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m34">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m35">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m36">test_06_verify_order_not_cancelled_with_invalid_end_point</a></td></tr><tr class="failedodd"><td rowspan="16">com.rest.api.PutApiCompleteOrder</td><td><a href="#m37">test_01_verify_complete_an_ongoing_order_with_specific_order_id</a></td><td rowspan="1">1547016006070</td><td rowspan="1">199</td></tr><tr class="failedodd"><td><a href="#m38">test_02_verify_order_not_completed_with_invalid_order_id</a></td><td rowspan="6">1547016006473</td><td rowspan="6">198</td></tr><tr class="failedodd"><td><a href="#m39">test_02_verify_order_not_completed_with_invalid_order_id</a></td></tr><tr class="failedodd"><td><a href="#m40">test_02_verify_order_not_completed_with_invalid_order_id</a></td></tr><tr class="failedodd"><td><a href="#m41">test_02_verify_order_not_completed_with_invalid_order_id</a></td></tr><tr class="failedodd"><td><a href="#m42">test_02_verify_order_not_completed_with_invalid_order_id</a></td></tr><tr class="failedodd"><td><a href="#m43">test_02_verify_order_not_completed_with_invalid_order_id</a></td></tr><tr class="failedodd"><td><a href="#m44">test_03_verify_order_not_completed_with_invalid_end_point</a></td><td rowspan="8">1547016008234</td><td rowspan="8">207</td></tr><tr class="failedodd"><td><a href="#m45">test_03_verify_order_not_completed_with_invalid_end_point</a></td></tr><tr class="failedodd"><td><a href="#m46">test_03_verify_order_not_completed_with_invalid_end_point</a></td></tr><tr class="failedodd"><td><a href="#m47">test_03_verify_order_not_completed_with_invalid_end_point</a></td></tr><tr class="failedodd"><td><a href="#m48">test_03_verify_order_not_completed_with_invalid_end_point</a></td></tr><tr class="failedodd"><td><a href="#m49">test_03_verify_order_not_completed_with_invalid_end_point</a></td></tr><tr class="failedodd"><td><a href="#m50">test_03_verify_order_not_completed_with_invalid_end_point</a></td></tr><tr class="failedodd"><td><a href="#m51">test_03_verify_order_not_completed_with_invalid_end_point</a></td></tr><tr class="failedodd"><td><a href="#m52">test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id</a></td><td rowspan="1">1547016010159</td><td rowspan="1">520</td></tr><tr class="failedeven"><td rowspan="15">com.rest.api.PutApiTakeOrder</td><td><a href="#m53">test_01_verify_take_order_with_specific_order_id</a></td><td rowspan="1">1547016010681</td><td rowspan="1">223</td></tr><tr class="failedeven"><td><a href="#m54">test_02_verify_order_not_taken_with_invalid_order_id</a></td><td rowspan="6">1547016011901</td><td rowspan="6">239</td></tr><tr class="failedeven"><td><a href="#m55">test_02_verify_order_not_taken_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m56">test_02_verify_order_not_taken_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m57">test_02_verify_order_not_taken_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m58">test_02_verify_order_not_taken_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m59">test_02_verify_order_not_taken_with_invalid_order_id</a></td></tr><tr class="failedeven"><td><a href="#m60">test_03_verify_order_not_taken_with_invalid_end_point</a></td><td rowspan="8">1547016016510</td><td rowspan="8">201</td></tr><tr class="failedeven"><td><a href="#m61">test_03_verify_order_not_taken_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m62">test_03_verify_order_not_taken_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m63">test_03_verify_order_not_taken_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m64">test_03_verify_order_not_taken_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m65">test_03_verify_order_not_taken_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m66">test_03_verify_order_not_taken_with_invalid_end_point</a></td></tr><tr class="failedeven"><td><a href="#m67">test_03_verify_order_not_taken_with_invalid_end_point</a></td></tr><tr><th colspan="4">Regression Suite &#8212; passed</th></tr><tr class="passedeven"><td rowspan="16">com.rest.api.PostApi</td><td><a href="#m68">test_01_verify_placing_an_order</a></td><td rowspan="1">1547015994362</td><td rowspan="1">2181</td></tr><tr class="passedeven"><td><a href="#m69">test_02_verify_placing_an_order_at_specific_time</a></td><td rowspan="1">1547015996545</td><td rowspan="1">487</td></tr><tr class="passedeven"><td><a href="#m70">test_03_verify_order_not_placed_with_invalid_time_format</a></td><td rowspan="6">1547015997036</td><td rowspan="6">27</td></tr><tr class="passedeven"><td><a href="#m71">test_03_verify_order_not_placed_with_invalid_time_format</a></td></tr><tr class="passedeven"><td><a href="#m72">test_03_verify_order_not_placed_with_invalid_time_format</a></td></tr><tr class="passedeven"><td><a href="#m73">test_03_verify_order_not_placed_with_invalid_time_format</a></td></tr><tr class="passedeven"><td><a href="#m74">test_03_verify_order_not_placed_with_invalid_time_format</a></td></tr><tr class="passedeven"><td><a href="#m75">test_03_verify_order_not_placed_with_invalid_time_format</a></td></tr><tr class="passedeven"><td><a href="#m76">test_06_verify_order_not_placed_with_incorrect_end_point</a></td><td rowspan="7">1547015998815</td><td rowspan="7">43</td></tr><tr class="passedeven"><td><a href="#m77">test_06_verify_order_not_placed_with_incorrect_end_point</a></td></tr><tr class="passedeven"><td><a href="#m78">test_06_verify_order_not_placed_with_incorrect_end_point</a></td></tr><tr class="passedeven"><td><a href="#m79">test_06_verify_order_not_placed_with_incorrect_end_point</a></td></tr><tr class="passedeven"><td><a href="#m80">test_06_verify_order_not_placed_with_incorrect_end_point</a></td></tr><tr class="passedeven"><td><a href="#m81">test_06_verify_order_not_placed_with_incorrect_end_point</a></td></tr><tr class="passedeven"><td><a href="#m82">test_06_verify_order_not_placed_with_incorrect_end_point</a></td></tr><tr class="passedeven"><td><a href="#m83">test_07_verify_order_not_placed_in_past_time</a></td><td rowspan="1">1547015998859</td><td rowspan="1">25</td></tr><tr class="passedodd"><td rowspan="1">com.rest.api.PutApiCancelOrder</td><td><a href="#m84">test_07_verify_order_not_cancelled_without_placing_it</a></td><td rowspan="1">1547016006036</td><td rowspan="1">33</td></tr><tr class="passedeven"><td rowspan="1">com.rest.api.PutApiCompleteOrder</td><td><a href="#m85">test_04_verify_order_not_completed_without_placing_it</a></td><td rowspan="1">1547016010135</td><td rowspan="1">23</td></tr><tr class="passedodd"><td rowspan="1">com.rest.api.PutApiTakeOrder</td><td><a href="#m86">test_04_verify_order_not_taken_without_placing_it</a></td><td rowspan="1">1547016017516</td><td rowspan="1">22</td></tr></tbody>
 </table>
-<h2>all-tests</h2><h3 id="m0">com.rest.api.postApi#test_04_verify_order_not_placed_with_incorrect_location_of_one_stop</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+<h2>Regression Suite</h2><h3 id="m0">com.rest.api.GetApi#test_01_verify_retrieve_valid_order_with_id</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.GetApi.test_01_verify_retrieve_valid_order_with_id(GetApi.java:60)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.rest.api.GetApi#test_02_verify_order_not_retrieved_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>12.34</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.GetApi.test_02_verify_order_not_retrieved_with_invalid_order_id(GetApi.java:92)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.rest.api.GetApi#test_02_verify_order_not_retrieved_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>SampleString</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.GetApi.test_02_verify_order_not_retrieved_with_invalid_order_id(GetApi.java:92)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.rest.api.GetApi#test_02_verify_order_not_retrieved_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.GetApi.test_02_verify_order_not_retrieved_with_invalid_order_id(GetApi.java:92)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.rest.api.GetApi#test_02_verify_order_not_retrieved_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Select * from orders;</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.GetApi.test_02_verify_order_not_retrieved_with_invalid_order_id(GetApi.java:92)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.rest.api.GetApi#test_02_verify_order_not_retrieved_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.GetApi.test_02_verify_order_not_retrieved_with_invalid_order_id(GetApi.java:92)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.rest.api.GetApi#test_02_verify_order_not_retrieved_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>10-09-1984</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.GetApi.test_02_verify_order_not_retrieved_with_invalid_order_id(GetApi.java:92)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.rest.api.GetApi#test_03_verify_order_not_retrieved_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234.9089/orders/1</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.GetApi.test_03_verify_order_not_retrieved_with_invalid_end_point(GetApi.java:117)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.rest.api.GetApi#test_03_verify_order_not_retrieved_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>select* from orders/orders/1</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.GetApi.test_03_verify_order_not_retrieved_with_invalid_end_point(GetApi.java:117)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.rest.api.GetApi#test_03_verify_order_not_retrieved_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>String/orders/1</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.GetApi.test_03_verify_order_not_retrieved_with_invalid_end_point(GetApi.java:117)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.rest.api.GetApi#test_03_verify_order_not_retrieved_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.000000000034/orders/1</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.GetApi.test_03_verify_order_not_retrieved_with_invalid_end_point(GetApi.java:117)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.rest.api.GetApi#test_03_verify_order_not_retrieved_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890/orders/1</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.GetApi.test_03_verify_order_not_retrieved_with_invalid_end_point(GetApi.java:117)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.rest.api.GetApi#test_03_verify_order_not_retrieved_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order/1</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.GetApi.test_03_verify_order_not_retrieved_with_invalid_end_point(GetApi.java:117)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.rest.api.GetApi#test_03_verify_order_not_retrieved_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()/orders/1</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.GetApi.test_03_verify_order_not_retrieved_with_invalid_end_point(GetApi.java:117)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.rest.api.PostApi#test_04_verify_order_not_placed_with_incorrect_location_of_one_stop</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.000000000034</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
 Expected: is &lt;400&gt;
      but: was &lt;503&gt;
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at com.rest.api.postApi.test_04_verify_order_not_placed_with_incorrect_location_of_one_stop(postApi.java:168)
+	at com.rest.api.PostApi.test_04_verify_order_not_placed_with_incorrect_location_of_one_stop(PostApi.java:122)
 ... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.rest.api.postApi#test_04_verify_order_not_placed_with_incorrect_location_of_one_stop</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.000000000034</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+<h3 id="m15">com.rest.api.PostApi#test_04_verify_order_not_placed_with_incorrect_location_of_one_stop</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
 Expected: is &lt;400&gt;
      but: was &lt;503&gt;
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at com.rest.api.postApi.test_04_verify_order_not_placed_with_incorrect_location_of_one_stop(postApi.java:168)
+	at com.rest.api.PostApi.test_04_verify_order_not_placed_with_incorrect_location_of_one_stop(PostApi.java:122)
 ... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.rest.api.postApi#test_05_verify_order_not_placed_with_incorrect_locations_of_all_stops</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.000000000034</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+<h3 id="m16">com.rest.api.PostApi#test_05_verify_order_not_placed_with_incorrect_locations_of_stops</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
 Expected: is &lt;400&gt;
      but: was &lt;503&gt;
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at com.rest.api.postApi.test_05_verify_order_not_placed_with_incorrect_locations_of_all_stops(postApi.java:201)
+	at com.rest.api.PostApi.test_05_verify_order_not_placed_with_incorrect_locations_of_stops(PostApi.java:144)
 ... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.rest.api.postApi#test_05_verify_order_not_placed_with_incorrect_locations_of_all_stops</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+<h3 id="m17">com.rest.api.PostApi#test_05_verify_order_not_placed_with_incorrect_locations_of_stops</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.000000000034</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
 Expected: is &lt;400&gt;
      but: was &lt;503&gt;
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at com.rest.api.postApi.test_05_verify_order_not_placed_with_incorrect_locations_of_all_stops(postApi.java:201)
+	at com.rest.api.PostApi.test_05_verify_order_not_placed_with_incorrect_locations_of_stops(PostApi.java:144)
 ... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.rest.api.postApi#test_08_verify_order_not_placed_with_identical_two_stops</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+<h3 id="m18">com.rest.api.PostApi#test_08_verify_order_not_placed_with_identical_two_stops</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
 Expected: is &lt;400&gt;
-     but: was &lt;201&gt;
+     but: was &lt;503&gt;
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at com.rest.api.postApi.test_08_verify_order_not_placed_with_identical_two_stops(postApi.java:297)
+	at com.rest.api.PostApi.test_08_verify_order_not_placed_with_identical_two_stops(PostApi.java:197)
 ... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.rest.api.putApiCancelOrder#test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
-Expected: is &lt;400&gt;
-     but: was &lt;200&gt;
+<h3 id="m19">com.rest.api.PutApiCancelOrder#test_01_verify_cancel_an_assigned_order_with_specific_order_id</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at com.rest.api.putApiCancelOrder.test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id(putApiCancelOrder.java:268)
+	at com.rest.api.PutApiCancelOrder.test_01_verify_cancel_an_assigned_order_with_specific_order_id(PutApiCancelOrder.java:59)
 ... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.rest.api.getApi#test_01_verify_retrieve_valid_order_with_id</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.rest.api.getApi#test_02_verify_order_not_retrieved_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.rest.api.getApi#test_02_verify_order_not_retrieved_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>10-09-1984</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.rest.api.getApi#test_02_verify_order_not_retrieved_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>SampleString</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.rest.api.getApi#test_02_verify_order_not_retrieved_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.rest.api.getApi#test_02_verify_order_not_retrieved_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>12.34</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">com.rest.api.getApi#test_02_verify_order_not_retrieved_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Select * from orders;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">com.rest.api.getApi#test_03_verify_order_not_retrieved_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>select* from orders/orders/1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">com.rest.api.getApi#test_03_verify_order_not_retrieved_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>String/orders/1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">com.rest.api.getApi#test_03_verify_order_not_retrieved_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order/1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m16">com.rest.api.getApi#test_03_verify_order_not_retrieved_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234.9089/orders/1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m17">com.rest.api.getApi#test_03_verify_order_not_retrieved_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()/orders/1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m18">com.rest.api.getApi#test_03_verify_order_not_retrieved_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890/orders/1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m19">com.rest.api.getApi#test_03_verify_order_not_retrieved_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.000000000034/orders/1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m20">com.rest.api.postApi#test_01_verify_placing_an_order</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m21">com.rest.api.postApi#test_02_verify_placing_an_order_at_specific_time</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m22">com.rest.api.postApi#test_03_verify_order_not_placed_with_invalid_time_format</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>SampleString</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m23">com.rest.api.postApi#test_03_verify_order_not_placed_with_invalid_time_format</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>10-09-1984</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m24">com.rest.api.postApi#test_03_verify_order_not_placed_with_invalid_time_format</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>12.34</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m25">com.rest.api.postApi#test_03_verify_order_not_placed_with_invalid_time_format</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m26">com.rest.api.postApi#test_03_verify_order_not_placed_with_invalid_time_format</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Select * from orders;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m27">com.rest.api.postApi#test_03_verify_order_not_placed_with_invalid_time_format</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m28">com.rest.api.postApi#test_06_verify_order_not_placed_with_incorrect_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234.9089/orders</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m29">com.rest.api.postApi#test_06_verify_order_not_placed_with_incorrect_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()/orders</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m30">com.rest.api.postApi#test_06_verify_order_not_placed_with_incorrect_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>String/orders</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m31">com.rest.api.postApi#test_06_verify_order_not_placed_with_incorrect_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890/orders</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m32">com.rest.api.postApi#test_06_verify_order_not_placed_with_incorrect_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>select* from orders/orders</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m33">com.rest.api.postApi#test_06_verify_order_not_placed_with_incorrect_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.000000000034/orders</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m34">com.rest.api.postApi#test_06_verify_order_not_placed_with_incorrect_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m35">com.rest.api.postApi#test_07_verify_order_not_placed_in_past_time</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m36">com.rest.api.putApiCancelOrder#test_01_verify_cancel_an_assigned_order_with_specific_order_id</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m37">com.rest.api.putApiCancelOrder#test_02_verify_cancel_an_ongoing_order_with_specific_order_id</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m38">com.rest.api.putApiCancelOrder#test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m39">com.rest.api.putApiCancelOrder#test_05_verify_order_not_cancelled_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Select * from orders;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m40">com.rest.api.putApiCancelOrder#test_05_verify_order_not_cancelled_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m41">com.rest.api.putApiCancelOrder#test_05_verify_order_not_cancelled_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>SampleString</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m42">com.rest.api.putApiCancelOrder#test_05_verify_order_not_cancelled_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>12.34</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m43">com.rest.api.putApiCancelOrder#test_05_verify_order_not_cancelled_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m44">com.rest.api.putApiCancelOrder#test_05_verify_order_not_cancelled_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>10-09-1984</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m45">com.rest.api.putApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order/1/cancel</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m46">com.rest.api.putApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>select* from orders/orders/1/cancel</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m47">com.rest.api.putApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234.9089/orders/1/cancel</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m48">com.rest.api.putApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()/orders/1/cancel</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m49">com.rest.api.putApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890/orders/1/cancel</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m50">com.rest.api.putApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>String/orders/1/cancel</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m51">com.rest.api.putApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.000000000034/orders/1/cancel</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m52">com.rest.api.putApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order/1/cancelled</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m53">com.rest.api.putApiCancelOrder#test_07_verify_order_not_cancelled_without_placing_it</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m54">com.rest.api.putApiCompleteOrder#test_01_verify_complete_an_ongoing_order_with_specific_order_id</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m55">com.rest.api.putApiCompleteOrder#test_02_verify_order_not_completed_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>SampleString</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m56">com.rest.api.putApiCompleteOrder#test_02_verify_order_not_completed_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Select * from orders;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m57">com.rest.api.putApiCompleteOrder#test_02_verify_order_not_completed_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m58">com.rest.api.putApiCompleteOrder#test_02_verify_order_not_completed_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>12.34</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m59">com.rest.api.putApiCompleteOrder#test_02_verify_order_not_completed_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>10-09-1984</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m60">com.rest.api.putApiCompleteOrder#test_02_verify_order_not_completed_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m61">com.rest.api.putApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234.9089/orders/1/complete</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m62">com.rest.api.putApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()/orders/1/complete</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m63">com.rest.api.putApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>String/orders/1/complete</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m64">com.rest.api.putApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890/orders/1/complete</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m65">com.rest.api.putApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order/1/completed</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m66">com.rest.api.putApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order/1/complete</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m67">com.rest.api.putApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.000000000034/orders/1/complete</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m68">com.rest.api.putApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>select* from orders/orders/1/complete</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m69">com.rest.api.putApiCompleteOrder#test_04_verify_order_not_completed_without_placing_it</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m70">com.rest.api.putApiCompleteOrder#test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m71">com.rest.api.putApiTakeOrder#test_01_verify_take_order_with_specific_order_id</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m72">com.rest.api.putApiTakeOrder#test_02_verify_order_not_taken_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>12.34</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m73">com.rest.api.putApiTakeOrder#test_02_verify_order_not_taken_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m74">com.rest.api.putApiTakeOrder#test_02_verify_order_not_taken_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>10-09-1984</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m75">com.rest.api.putApiTakeOrder#test_02_verify_order_not_taken_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m76">com.rest.api.putApiTakeOrder#test_02_verify_order_not_taken_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Select * from orders;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m77">com.rest.api.putApiTakeOrder#test_02_verify_order_not_taken_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>SampleString</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m78">com.rest.api.putApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order/1/taken</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m79">com.rest.api.putApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.000000000034/orders/1/take</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m80">com.rest.api.putApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()/orders/1/take</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m81">com.rest.api.putApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890/orders/1/take</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m82">com.rest.api.putApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>String/orders/1/take</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m83">com.rest.api.putApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>select* from orders/orders/1/take</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m84">com.rest.api.putApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234.9089/orders/1/take</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m85">com.rest.api.putApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order/1/take</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m86">com.rest.api.putApiTakeOrder#test_04_verify_order_not_taken_without_placing_it</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.rest.api.PutApiCancelOrder#test_02_verify_cancel_an_ongoing_order_with_specific_order_id</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_02_verify_cancel_an_ongoing_order_with_specific_order_id(PutApiCancelOrder.java:102)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.rest.api.PutApiCancelOrder#test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id(PutApiCancelOrder.java:152)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">com.rest.api.PutApiCancelOrder#test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id(PutApiCancelOrder.java:203)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">com.rest.api.PutApiCancelOrder#test_05_verify_order_not_cancelled_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>10-09-1984</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_05_verify_order_not_cancelled_with_invalid_order_id(PutApiCancelOrder.java:249)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">com.rest.api.PutApiCancelOrder#test_05_verify_order_not_cancelled_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>SampleString</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_05_verify_order_not_cancelled_with_invalid_order_id(PutApiCancelOrder.java:249)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">com.rest.api.PutApiCancelOrder#test_05_verify_order_not_cancelled_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Select * from orders;</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_05_verify_order_not_cancelled_with_invalid_order_id(PutApiCancelOrder.java:249)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">com.rest.api.PutApiCancelOrder#test_05_verify_order_not_cancelled_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>12.34</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_05_verify_order_not_cancelled_with_invalid_order_id(PutApiCancelOrder.java:249)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">com.rest.api.PutApiCancelOrder#test_05_verify_order_not_cancelled_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_05_verify_order_not_cancelled_with_invalid_order_id(PutApiCancelOrder.java:249)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">com.rest.api.PutApiCancelOrder#test_05_verify_order_not_cancelled_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_05_verify_order_not_cancelled_with_invalid_order_id(PutApiCancelOrder.java:249)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">com.rest.api.PutApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order/1/cancelled</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_06_verify_order_not_cancelled_with_invalid_end_point(PutApiCancelOrder.java:271)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">com.rest.api.PutApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234.9089/orders/1/cancel</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_06_verify_order_not_cancelled_with_invalid_end_point(PutApiCancelOrder.java:271)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">com.rest.api.PutApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>select* from orders/orders/1/cancel</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_06_verify_order_not_cancelled_with_invalid_end_point(PutApiCancelOrder.java:271)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">com.rest.api.PutApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()/orders/1/cancel</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_06_verify_order_not_cancelled_with_invalid_end_point(PutApiCancelOrder.java:271)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">com.rest.api.PutApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.000000000034/orders/1/cancel</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_06_verify_order_not_cancelled_with_invalid_end_point(PutApiCancelOrder.java:271)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">com.rest.api.PutApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order/1/cancel</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_06_verify_order_not_cancelled_with_invalid_end_point(PutApiCancelOrder.java:271)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">com.rest.api.PutApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890/orders/1/cancel</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_06_verify_order_not_cancelled_with_invalid_end_point(PutApiCancelOrder.java:271)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">com.rest.api.PutApiCancelOrder#test_06_verify_order_not_cancelled_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>String/orders/1/cancel</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCancelOrder.test_06_verify_order_not_cancelled_with_invalid_end_point(PutApiCancelOrder.java:271)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">com.rest.api.PutApiCompleteOrder#test_01_verify_complete_an_ongoing_order_with_specific_order_id</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_01_verify_complete_an_ongoing_order_with_specific_order_id(PutApiCompleteOrder.java:59)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m38">com.rest.api.PutApiCompleteOrder#test_02_verify_order_not_completed_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>SampleString</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m39">com.rest.api.PutApiCompleteOrder#test_02_verify_order_not_completed_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>12.34</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m40">com.rest.api.PutApiCompleteOrder#test_02_verify_order_not_completed_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m41">com.rest.api.PutApiCompleteOrder#test_02_verify_order_not_completed_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>10-09-1984</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m42">com.rest.api.PutApiCompleteOrder#test_02_verify_order_not_completed_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m43">com.rest.api.PutApiCompleteOrder#test_02_verify_order_not_completed_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Select * from orders;</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m44">com.rest.api.PutApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890/orders/1/complete</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m45">com.rest.api.PutApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()/orders/1/complete</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m46">com.rest.api.PutApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order/1/completed</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m47">com.rest.api.PutApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order/1/complete</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m48">com.rest.api.PutApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>String/orders/1/complete</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m49">com.rest.api.PutApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234.9089/orders/1/complete</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m50">com.rest.api.PutApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.000000000034/orders/1/complete</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m51">com.rest.api.PutApiCompleteOrder#test_03_verify_order_not_completed_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>select* from orders/orders/1/complete</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m52">com.rest.api.PutApiCompleteOrder#test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiCompleteOrder.test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id(PutApiCompleteOrder.java:187)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m53">com.rest.api.PutApiTakeOrder#test_01_verify_take_order_with_specific_order_id</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_01_verify_take_order_with_specific_order_id(PutApiTakeOrder.java:60)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m54">com.rest.api.PutApiTakeOrder#test_02_verify_order_not_taken_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>10-09-1984</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_02_verify_order_not_taken_with_invalid_order_id(PutApiTakeOrder.java:94)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m55">com.rest.api.PutApiTakeOrder#test_02_verify_order_not_taken_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>SampleString</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_02_verify_order_not_taken_with_invalid_order_id(PutApiTakeOrder.java:94)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m56">com.rest.api.PutApiTakeOrder#test_02_verify_order_not_taken_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Select * from orders;</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_02_verify_order_not_taken_with_invalid_order_id(PutApiTakeOrder.java:94)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m57">com.rest.api.PutApiTakeOrder#test_02_verify_order_not_taken_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_02_verify_order_not_taken_with_invalid_order_id(PutApiTakeOrder.java:94)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m58">com.rest.api.PutApiTakeOrder#test_02_verify_order_not_taken_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>12.34</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_02_verify_order_not_taken_with_invalid_order_id(PutApiTakeOrder.java:94)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m59">com.rest.api.PutApiTakeOrder#test_02_verify_order_not_taken_with_invalid_order_id</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_02_verify_order_not_taken_with_invalid_order_id(PutApiTakeOrder.java:94)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m60">com.rest.api.PutApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>String/orders/1/take</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_03_verify_order_not_taken_with_invalid_end_point(PutApiTakeOrder.java:119)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m61">com.rest.api.PutApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>select* from orders/orders/1/take</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_03_verify_order_not_taken_with_invalid_end_point(PutApiTakeOrder.java:119)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m62">com.rest.api.PutApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.000000000034/orders/1/take</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_03_verify_order_not_taken_with_invalid_end_point(PutApiTakeOrder.java:119)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m63">com.rest.api.PutApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890/orders/1/take</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_03_verify_order_not_taken_with_invalid_end_point(PutApiTakeOrder.java:119)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m64">com.rest.api.PutApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()/orders/1/take</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_03_verify_order_not_taken_with_invalid_end_point(PutApiTakeOrder.java:119)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m65">com.rest.api.PutApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order/1/take</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_03_verify_order_not_taken_with_invalid_end_point(PutApiTakeOrder.java:119)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m66">com.rest.api.PutApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order/1/taken</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_03_verify_order_not_taken_with_invalid_end_point(PutApiTakeOrder.java:119)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m67">com.rest.api.PutApiTakeOrder#test_03_verify_order_not_taken_with_invalid_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234.9089/orders/1/take</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;503&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.rest.api.PutApiTakeOrder.test_03_verify_order_not_taken_with_invalid_end_point(PutApiTakeOrder.java:119)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m68">com.rest.api.PostApi#test_01_verify_placing_an_order</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m69">com.rest.api.PostApi#test_02_verify_placing_an_order_at_specific_time</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m70">com.rest.api.PostApi#test_03_verify_order_not_placed_with_invalid_time_format</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m71">com.rest.api.PostApi#test_03_verify_order_not_placed_with_invalid_time_format</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m72">com.rest.api.PostApi#test_03_verify_order_not_placed_with_invalid_time_format</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Select * from orders;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m73">com.rest.api.PostApi#test_03_verify_order_not_placed_with_invalid_time_format</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>10-09-1984</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m74">com.rest.api.PostApi#test_03_verify_order_not_placed_with_invalid_time_format</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>12.34</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m75">com.rest.api.PostApi#test_03_verify_order_not_placed_with_invalid_time_format</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>SampleString</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m76">com.rest.api.PostApi#test_06_verify_order_not_placed_with_incorrect_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234.9089/orders</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m77">com.rest.api.PostApi#test_06_verify_order_not_placed_with_incorrect_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>1234567890/orders</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m78">com.rest.api.PostApi#test_06_verify_order_not_placed_with_incorrect_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>!@#$%^&amp;*()/orders</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m79">com.rest.api.PostApi#test_06_verify_order_not_placed_with_incorrect_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>select* from orders/orders</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m80">com.rest.api.PostApi#test_06_verify_order_not_placed_with_incorrect_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>String/orders</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m81">com.rest.api.PostApi#test_06_verify_order_not_placed_with_incorrect_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.000000000034/orders</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m82">com.rest.api.PostApi#test_06_verify_order_not_placed_with_incorrect_end_point</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>v1/order</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m83">com.rest.api.PostApi#test_07_verify_order_not_placed_in_past_time</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m84">com.rest.api.PutApiCancelOrder#test_07_verify_order_not_cancelled_without_placing_it</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m85">com.rest.api.PutApiCompleteOrder#test_04_verify_order_not_completed_without_placing_it</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m86">com.rest.api.PutApiTakeOrder#test_04_verify_order_not_taken_without_placing_it</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

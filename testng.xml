@@ -1,8 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite1" verbose="1">
-    <test name="all-tests">
-        <packages>
-            <package name="com.rest.api"/>
-        </packages>
+<suite name="REST API TESTING" verbose="1">
+    <test name="Regression Suite">
+        <classes>
+      		<class name="com.rest.api.PostApi"/>
+      		<class name="com.rest.api.GetApi"/>
+      		<class name="com.rest.api.PutApiCancelOrder"/>
+      		<class name="com.rest.api.PutApiCompleteOrder"/>
+      		<class name="com.rest.api.PutApiTakeOrder"/>
+    	</classes>
     </test>
 </suite>

@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.api.postApi">
+      <class name="com.rest.api.PutApiCancelOrder">
         <methods>
-          <include name="test_04_place_order_not_placed_with_incorrect_location_of_one_stop" invocation-numbers="0 1"/>
-          <include name="test_08_verify_order_not_placed_with_identical_two_stops"/>
-          <include name="test_05_verify_order_not_placed_with_incorrect_locations_of_all_stops" invocation-numbers="0 1"/>
+          <include name="initialize"/>
+          <include name="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id"/>
         </methods>
-      </class> <!-- com.rest.api.postApi -->
+      </class> <!-- com.rest.api.PutApiCancelOrder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
