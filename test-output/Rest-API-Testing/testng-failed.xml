@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [REST API TESTING]">
-  <test thread-count="5" name="Regression Suite(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rest-API-Testing]">
+  <test thread-count="5" name="Regression-Suite(failed)">
     <classes>
       <class name="com.rest.api.PostApi">
         <methods>
@@ -48,5 +48,5 @@
         </methods>
       </class> <!-- com.rest.api.PutApiCancelOrder -->
     </classes>
-  </test> <!-- Regression Suite(failed) -->
-</suite> <!-- Failed suite [REST API TESTING] -->
+  </test> <!-- Regression-Suite(failed) -->
+</suite> <!-- Failed suite [Rest-API-Testing] -->

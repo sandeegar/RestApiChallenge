@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="68" ignored="0" total="87" passed="19">
   <reporter-output>
   </reporter-output>
-  <suite name="REST API TESTING" duration-ms="23629" started-at="2019-01-09T06:39:53Z" finished-at="2019-01-09T06:40:17Z">
+  <suite name="Rest-API-Testing" duration-ms="42186" started-at="2019-01-09T06:47:25Z" finished-at="2019-01-09T06:48:08Z">
     <groups>
     </groups>
-    <test name="Regression Suite" duration-ms="23629" started-at="2019-01-09T06:39:53Z" finished-at="2019-01-09T06:40:17Z">
+    <test name="Regression-Suite" duration-ms="42186" started-at="2019-01-09T06:47:25Z" finished-at="2019-01-09T06:48:08Z">
       <class name="com.rest.api.PutApiTakeOrder">
-        <test-method status="FAIL" signature="test_01_verify_take_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_01_verify_take_order_with_specific_order_id" duration-ms="223" started-at="2019-01-09T06:40:10Z" finished-at="2019-01-09T06:40:10Z">
+        <test-method status="FAIL" signature="test_01_verify_take_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_01_verify_take_order_with_specific_order_id" duration-ms="465" started-at="2019-01-09T06:48:01Z" finished-at="2019-01-09T06:48:02Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
@@ -52,7 +52,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_verify_take_order_with_specific_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="213" started-at="2019-01-09T06:40:10Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:11Z">
+        <test-method status="FAIL" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="534" started-at="2019-01-09T06:48:02Z" data-provider="invalidIds" finished-at="2019-01-09T06:48:02Z">
           <params>
             <param index="0">
               <value>
@@ -104,7 +104,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_order_not_taken_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="570" started-at="2019-01-09T06:40:11Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:11Z">
+        <test-method status="FAIL" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="405" started-at="2019-01-09T06:48:02Z" data-provider="invalidIds" finished-at="2019-01-09T06:48:03Z">
           <params>
             <param index="0">
               <value>
@@ -156,7 +156,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_order_not_taken_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="205" started-at="2019-01-09T06:40:11Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:11Z">
+        <test-method status="FAIL" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="355" started-at="2019-01-09T06:48:03Z" data-provider="invalidIds" finished-at="2019-01-09T06:48:03Z">
           <params>
             <param index="0">
               <value>
@@ -208,7 +208,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_order_not_taken_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="239" started-at="2019-01-09T06:40:11Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:12Z">
+        <test-method status="FAIL" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="343" started-at="2019-01-09T06:48:03Z" data-provider="invalidIds" finished-at="2019-01-09T06:48:03Z">
           <params>
             <param index="0">
               <value>
@@ -260,7 +260,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_order_not_taken_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="220" started-at="2019-01-09T06:40:12Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:12Z">
+        <test-method status="FAIL" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="462" started-at="2019-01-09T06:48:03Z" data-provider="invalidIds" finished-at="2019-01-09T06:48:04Z">
           <params>
             <param index="0">
               <value>
@@ -312,7 +312,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_order_not_taken_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="514" started-at="2019-01-09T06:40:12Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:12Z">
+        <test-method status="FAIL" signature="test_02_verify_order_not_taken_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_02_verify_order_not_taken_with_invalid_order_id" duration-ms="458" started-at="2019-01-09T06:48:04Z" data-provider="invalidIds" finished-at="2019-01-09T06:48:04Z">
           <params>
             <param index="0">
               <value>
@@ -364,7 +364,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_order_not_taken_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="208" started-at="2019-01-09T06:40:12Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:40:13Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="352" started-at="2019-01-09T06:48:04Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:48:05Z">
           <params>
             <param index="0">
               <value>
@@ -416,7 +416,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="210" started-at="2019-01-09T06:40:13Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:40:13Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="451" started-at="2019-01-09T06:48:05Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:48:05Z">
           <params>
             <param index="0">
               <value>
@@ -468,7 +468,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="3209" started-at="2019-01-09T06:40:13Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:40:16Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="799" started-at="2019-01-09T06:48:05Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:48:06Z">
           <params>
             <param index="0">
               <value>
@@ -520,7 +520,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="201" started-at="2019-01-09T06:40:16Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:40:16Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="341" started-at="2019-01-09T06:48:06Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:48:06Z">
           <params>
             <param index="0">
               <value>
@@ -572,7 +572,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="198" started-at="2019-01-09T06:40:16Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:40:16Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="353" started-at="2019-01-09T06:48:06Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:48:07Z">
           <params>
             <param index="0">
               <value>
@@ -624,7 +624,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="194" started-at="2019-01-09T06:40:16Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:40:17Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="346" started-at="2019-01-09T06:48:07Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:48:07Z">
           <params>
             <param index="0">
               <value>
@@ -676,7 +676,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="203" started-at="2019-01-09T06:40:17Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:40:17Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="351" started-at="2019-01-09T06:48:07Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:48:07Z">
           <params>
             <param index="0">
               <value>
@@ -728,7 +728,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="203" started-at="2019-01-09T06:40:17Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:40:17Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_taken_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_03_verify_order_not_taken_with_invalid_end_point" duration-ms="341" started-at="2019-01-09T06:48:07Z" data-provider="invalidTakeEndPoint" finished-at="2019-01-09T06:48:08Z">
           <params>
             <param index="0">
               <value>
@@ -780,33 +780,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_taken_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_04_verify_order_not_taken_without_placing_it()[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_04_verify_order_not_taken_without_placing_it" duration-ms="22" started-at="2019-01-09T06:40:17Z" finished-at="2019-01-09T06:40:17Z">
+        <test-method status="PASS" signature="test_04_verify_order_not_taken_without_placing_it()[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="test_04_verify_order_not_taken_without_placing_it" duration-ms="26" started-at="2019-01-09T06:48:08Z" finished-at="2019-01-09T06:48:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_04_verify_order_not_taken_without_placing_it -->
       </class> <!-- com.rest.api.PutApiTakeOrder -->
       <class name="com.rest.api.GetApi">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.api.GetApi@80503]" name="initialize" is-config="true" duration-ms="433" started-at="2019-01-09T06:39:53Z" finished-at="2019-01-09T06:39:54Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.api.GetApi@80503]" name="initialize" is-config="true" duration-ms="415" started-at="2019-01-09T06:47:25Z" finished-at="2019-01-09T06:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="initialize" is-config="true" duration-ms="1" started-at="2019-01-09T06:39:54Z" finished-at="2019-01-09T06:39:54Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="initialize" is-config="true" duration-ms="1" started-at="2019-01-09T06:47:26Z" finished-at="2019-01-09T06:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="initialize" is-config="true" duration-ms="0" started-at="2019-01-09T06:39:54Z" finished-at="2019-01-09T06:39:54Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="initialize" is-config="true" duration-ms="1" started-at="2019-01-09T06:47:26Z" finished-at="2019-01-09T06:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="initialize" is-config="true" duration-ms="1" started-at="2019-01-09T06:39:54Z" finished-at="2019-01-09T06:39:54Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="initialize" is-config="true" duration-ms="0" started-at="2019-01-09T06:47:26Z" finished-at="2019-01-09T06:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="initialize" is-config="true" duration-ms="1" started-at="2019-01-09T06:39:54Z" finished-at="2019-01-09T06:39:54Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.rest.api.PutApiTakeOrder@86be70a]" name="initialize" is-config="true" duration-ms="1" started-at="2019-01-09T06:47:26Z" finished-at="2019-01-09T06:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="FAIL" signature="test_01_verify_retrieve_valid_order_with_id()[pri:0, instance:com.rest.api.GetApi@80503]" name="test_01_verify_retrieve_valid_order_with_id" duration-ms="211" started-at="2019-01-09T06:39:59Z" finished-at="2019-01-09T06:39:59Z">
+        <test-method status="FAIL" signature="test_01_verify_retrieve_valid_order_with_id()[pri:0, instance:com.rest.api.GetApi@80503]" name="test_01_verify_retrieve_valid_order_with_id" duration-ms="457" started-at="2019-01-09T06:47:35Z" finished-at="2019-01-09T06:47:35Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
@@ -851,7 +851,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_verify_retrieve_valid_order_with_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="200" started-at="2019-01-09T06:39:59Z" data-provider="invalidIds" finished-at="2019-01-09T06:39:59Z">
+        <test-method status="FAIL" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="342" started-at="2019-01-09T06:47:35Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:36Z">
           <params>
             <param index="0">
               <value>
@@ -903,7 +903,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_order_not_retrieved_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="204" started-at="2019-01-09T06:39:59Z" data-provider="invalidIds" finished-at="2019-01-09T06:39:59Z">
+        <test-method status="FAIL" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="462" started-at="2019-01-09T06:47:36Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:36Z">
           <params>
             <param index="0">
               <value>
@@ -955,7 +955,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_order_not_retrieved_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="212" started-at="2019-01-09T06:39:59Z" data-provider="invalidIds" finished-at="2019-01-09T06:39:59Z">
+        <test-method status="FAIL" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="568" started-at="2019-01-09T06:47:36Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:37Z">
           <params>
             <param index="0">
               <value>
@@ -1007,7 +1007,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_order_not_retrieved_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="204" started-at="2019-01-09T06:39:59Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:00Z">
+        <test-method status="FAIL" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="358" started-at="2019-01-09T06:47:37Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:37Z">
           <params>
             <param index="0">
               <value>
@@ -1059,7 +1059,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_order_not_retrieved_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="201" started-at="2019-01-09T06:40:00Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:00Z">
+        <test-method status="FAIL" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="336" started-at="2019-01-09T06:47:37Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:38Z">
           <params>
             <param index="0">
               <value>
@@ -1111,7 +1111,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_order_not_retrieved_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="200" started-at="2019-01-09T06:40:00Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:00Z">
+        <test-method status="FAIL" signature="test_02_verify_order_not_retrieved_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_02_verify_order_not_retrieved_with_invalid_order_id" duration-ms="348" started-at="2019-01-09T06:47:38Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:38Z">
           <params>
             <param index="0">
               <value>
@@ -1163,7 +1163,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_order_not_retrieved_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="208" started-at="2019-01-09T06:40:00Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T06:40:00Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="347" started-at="2019-01-09T06:47:38Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T06:47:38Z">
           <params>
             <param index="0">
               <value>
@@ -1215,7 +1215,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_retrieved_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="198" started-at="2019-01-09T06:40:00Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T06:40:00Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="343" started-at="2019-01-09T06:47:38Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T06:47:39Z">
           <params>
             <param index="0">
               <value>
@@ -1267,7 +1267,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_retrieved_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="197" started-at="2019-01-09T06:40:00Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T06:40:01Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="460" started-at="2019-01-09T06:47:39Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T06:47:39Z">
           <params>
             <param index="0">
               <value>
@@ -1319,7 +1319,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_retrieved_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="202" started-at="2019-01-09T06:40:01Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T06:40:01Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="459" started-at="2019-01-09T06:47:39Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T06:47:40Z">
           <params>
             <param index="0">
               <value>
@@ -1371,7 +1371,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_retrieved_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="199" started-at="2019-01-09T06:40:01Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T06:40:01Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="347" started-at="2019-01-09T06:47:40Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T06:47:40Z">
           <params>
             <param index="0">
               <value>
@@ -1423,7 +1423,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_retrieved_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="203" started-at="2019-01-09T06:40:01Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T06:40:01Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="453" started-at="2019-01-09T06:47:40Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T06:47:40Z">
           <params>
             <param index="0">
               <value>
@@ -1475,7 +1475,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_retrieved_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="204" started-at="2019-01-09T06:40:01Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T06:40:01Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_retrieved_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.GetApi@80503]" name="test_03_verify_order_not_retrieved_with_invalid_end_point" duration-ms="461" started-at="2019-01-09T06:47:40Z" data-provider="invalidFetchEndPoint" finished-at="2019-01-09T06:47:41Z">
           <params>
             <param index="0">
               <value>
@@ -1529,15 +1529,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- test_03_verify_order_not_retrieved_with_invalid_end_point -->
       </class> <!-- com.rest.api.GetApi -->
       <class name="com.rest.api.PostApi">
-        <test-method status="PASS" signature="test_01_verify_placing_an_order()[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_01_verify_placing_an_order" duration-ms="2181" started-at="2019-01-09T06:39:54Z" finished-at="2019-01-09T06:39:56Z">
+        <test-method status="PASS" signature="test_01_verify_placing_an_order()[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_01_verify_placing_an_order" duration-ms="2796" started-at="2019-01-09T06:47:26Z" finished-at="2019-01-09T06:47:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_verify_placing_an_order -->
-        <test-method status="PASS" signature="test_02_verify_placing_an_order_at_specific_time()[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_02_verify_placing_an_order_at_specific_time" duration-ms="487" started-at="2019-01-09T06:39:56Z" finished-at="2019-01-09T06:39:57Z">
+        <test-method status="PASS" signature="test_02_verify_placing_an_order_at_specific_time()[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_02_verify_placing_an_order_at_specific_time" duration-ms="3745" started-at="2019-01-09T06:47:29Z" finished-at="2019-01-09T06:47:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_placing_an_order_at_specific_time -->
-        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="27" started-at="2019-01-09T06:39:57Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T06:39:57Z">
+        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="33" started-at="2019-01-09T06:47:32Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T06:47:33Z">
           <params>
             <param index="0">
               <value>
@@ -1548,7 +1548,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_placed_with_invalid_time_format -->
-        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="54" started-at="2019-01-09T06:39:57Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T06:39:57Z">
+        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="39" started-at="2019-01-09T06:47:33Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T06:47:33Z">
           <params>
             <param index="0">
               <value>
@@ -1559,7 +1559,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_placed_with_invalid_time_format -->
-        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="27" started-at="2019-01-09T06:39:57Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T06:39:57Z">
+        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="34" started-at="2019-01-09T06:47:33Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T06:47:33Z">
           <params>
             <param index="0">
               <value>
@@ -1570,7 +1570,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_placed_with_invalid_time_format -->
-        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="35" started-at="2019-01-09T06:39:57Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T06:39:57Z">
+        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="23" started-at="2019-01-09T06:47:33Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T06:47:33Z">
           <params>
             <param index="0">
               <value>
@@ -1581,7 +1581,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_placed_with_invalid_time_format -->
-        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="43" started-at="2019-01-09T06:39:57Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T06:39:57Z">
+        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="27" started-at="2019-01-09T06:47:33Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T06:47:33Z">
           <params>
             <param index="0">
               <value>
@@ -1592,7 +1592,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_placed_with_invalid_time_format -->
-        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="25" started-at="2019-01-09T06:39:57Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T06:39:57Z">
+        <test-method status="PASS" signature="test_03_verify_order_not_placed_with_invalid_time_format(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_03_verify_order_not_placed_with_invalid_time_format" duration-ms="23" started-at="2019-01-09T06:47:33Z" data-provider="invalidTimeFormats" finished-at="2019-01-09T06:47:33Z">
           <params>
             <param index="0">
               <value>
@@ -1603,7 +1603,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_placed_with_invalid_time_format -->
-        <test-method status="FAIL" signature="test_04_verify_order_not_placed_with_incorrect_location_of_one_stop(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_04_verify_order_not_placed_with_incorrect_location_of_one_stop" duration-ms="201" started-at="2019-01-09T06:39:57Z" data-provider="invalidLattitude" finished-at="2019-01-09T06:39:57Z">
+        <test-method status="FAIL" signature="test_04_verify_order_not_placed_with_incorrect_location_of_one_stop(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_04_verify_order_not_placed_with_incorrect_location_of_one_stop" duration-ms="474" started-at="2019-01-09T06:47:33Z" data-provider="invalidLattitude" finished-at="2019-01-09T06:47:33Z">
           <params>
             <param index="0">
               <value>
@@ -1655,7 +1655,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_04_verify_order_not_placed_with_incorrect_location_of_one_stop -->
-        <test-method status="FAIL" signature="test_04_verify_order_not_placed_with_incorrect_location_of_one_stop(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_04_verify_order_not_placed_with_incorrect_location_of_one_stop" duration-ms="209" started-at="2019-01-09T06:39:57Z" data-provider="invalidLattitude" finished-at="2019-01-09T06:39:57Z">
+        <test-method status="FAIL" signature="test_04_verify_order_not_placed_with_incorrect_location_of_one_stop(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_04_verify_order_not_placed_with_incorrect_location_of_one_stop" duration-ms="448" started-at="2019-01-09T06:47:33Z" data-provider="invalidLattitude" finished-at="2019-01-09T06:47:34Z">
           <params>
             <param index="0">
               <value>
@@ -1707,7 +1707,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_04_verify_order_not_placed_with_incorrect_location_of_one_stop -->
-        <test-method status="FAIL" signature="test_05_verify_order_not_placed_with_incorrect_locations_of_stops(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_05_verify_order_not_placed_with_incorrect_locations_of_stops" duration-ms="215" started-at="2019-01-09T06:39:57Z" data-provider="invalidLattitude" finished-at="2019-01-09T06:39:57Z">
+        <test-method status="FAIL" signature="test_05_verify_order_not_placed_with_incorrect_locations_of_stops(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_05_verify_order_not_placed_with_incorrect_locations_of_stops" duration-ms="461" started-at="2019-01-09T06:47:34Z" data-provider="invalidLattitude" finished-at="2019-01-09T06:47:34Z">
           <params>
             <param index="0">
               <value>
@@ -1759,7 +1759,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_order_not_placed_with_incorrect_locations_of_stops -->
-        <test-method status="FAIL" signature="test_05_verify_order_not_placed_with_incorrect_locations_of_stops(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_05_verify_order_not_placed_with_incorrect_locations_of_stops" duration-ms="202" started-at="2019-01-09T06:39:57Z" data-provider="invalidLattitude" finished-at="2019-01-09T06:39:58Z">
+        <test-method status="FAIL" signature="test_05_verify_order_not_placed_with_incorrect_locations_of_stops(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_05_verify_order_not_placed_with_incorrect_locations_of_stops" duration-ms="342" started-at="2019-01-09T06:47:34Z" data-provider="invalidLattitude" finished-at="2019-01-09T06:47:34Z">
           <params>
             <param index="0">
               <value>
@@ -1811,7 +1811,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_order_not_placed_with_incorrect_locations_of_stops -->
-        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="23" started-at="2019-01-09T06:39:58Z" data-provider="invalidEndPoint" finished-at="2019-01-09T06:39:58Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="34" started-at="2019-01-09T06:47:34Z" data-provider="invalidEndPoint" finished-at="2019-01-09T06:47:34Z">
           <params>
             <param index="0">
               <value>
@@ -1822,7 +1822,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_placed_with_incorrect_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="23" started-at="2019-01-09T06:39:58Z" data-provider="invalidEndPoint" finished-at="2019-01-09T06:39:58Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="20" started-at="2019-01-09T06:47:34Z" data-provider="invalidEndPoint" finished-at="2019-01-09T06:47:34Z">
           <params>
             <param index="0">
               <value>
@@ -1833,7 +1833,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_placed_with_incorrect_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="29" started-at="2019-01-09T06:39:58Z" data-provider="invalidEndPoint" finished-at="2019-01-09T06:39:58Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="20" started-at="2019-01-09T06:47:34Z" data-provider="invalidEndPoint" finished-at="2019-01-09T06:47:34Z">
           <params>
             <param index="0">
               <value>
@@ -1844,7 +1844,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_placed_with_incorrect_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="595" started-at="2019-01-09T06:39:58Z" data-provider="invalidEndPoint" finished-at="2019-01-09T06:39:58Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="32" started-at="2019-01-09T06:47:34Z" data-provider="invalidEndPoint" finished-at="2019-01-09T06:47:35Z">
           <params>
             <param index="0">
               <value>
@@ -1855,7 +1855,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_placed_with_incorrect_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="28" started-at="2019-01-09T06:39:58Z" data-provider="invalidEndPoint" finished-at="2019-01-09T06:39:58Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="24" started-at="2019-01-09T06:47:35Z" data-provider="invalidEndPoint" finished-at="2019-01-09T06:47:35Z">
           <params>
             <param index="0">
               <value>
@@ -1866,7 +1866,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_placed_with_incorrect_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="22" started-at="2019-01-09T06:39:58Z" data-provider="invalidEndPoint" finished-at="2019-01-09T06:39:58Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="20" started-at="2019-01-09T06:47:35Z" data-provider="invalidEndPoint" finished-at="2019-01-09T06:47:35Z">
           <params>
             <param index="0">
               <value>
@@ -1877,7 +1877,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_placed_with_incorrect_end_point -->
-        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="43" started-at="2019-01-09T06:39:58Z" data-provider="invalidEndPoint" finished-at="2019-01-09T06:39:58Z">
+        <test-method status="PASS" signature="test_06_verify_order_not_placed_with_incorrect_end_point(java.lang.String)[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_06_verify_order_not_placed_with_incorrect_end_point" duration-ms="27" started-at="2019-01-09T06:47:35Z" data-provider="invalidEndPoint" finished-at="2019-01-09T06:47:35Z">
           <params>
             <param index="0">
               <value>
@@ -1888,11 +1888,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_placed_with_incorrect_end_point -->
-        <test-method status="PASS" signature="test_07_verify_order_not_placed_in_past_time()[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_07_verify_order_not_placed_in_past_time" duration-ms="25" started-at="2019-01-09T06:39:58Z" finished-at="2019-01-09T06:39:58Z">
+        <test-method status="PASS" signature="test_07_verify_order_not_placed_in_past_time()[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_07_verify_order_not_placed_in_past_time" duration-ms="27" started-at="2019-01-09T06:47:35Z" finished-at="2019-01-09T06:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_07_verify_order_not_placed_in_past_time -->
-        <test-method status="FAIL" signature="test_08_verify_order_not_placed_with_identical_two_stops()[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_08_verify_order_not_placed_with_identical_two_stops" duration-ms="209" started-at="2019-01-09T06:39:58Z" finished-at="2019-01-09T06:39:59Z">
+        <test-method status="FAIL" signature="test_08_verify_order_not_placed_with_identical_two_stops()[pri:0, instance:com.rest.api.PostApi@2f943d71]" name="test_08_verify_order_not_placed_with_identical_two_stops" duration-ms="383" started-at="2019-01-09T06:47:35Z" finished-at="2019-01-09T06:47:35Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
@@ -1938,832 +1938,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- test_08_verify_order_not_placed_with_identical_two_stops -->
       </class> <!-- com.rest.api.PostApi -->
-      <class name="com.rest.api.PutApiCompleteOrder">
-        <test-method status="FAIL" signature="test_01_verify_complete_an_ongoing_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_01_verify_complete_an_ongoing_order_with_specific_order_id" duration-ms="199" started-at="2019-01-09T06:40:06Z" finished-at="2019-01-09T06:40:06Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_01_verify_complete_an_ongoing_order_with_specific_order_id(PutApiCompleteOrder.java:59)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_01_verify_complete_an_ongoing_order_with_specific_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="201" started-at="2019-01-09T06:40:06Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1234567890]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="198" started-at="2019-01-09T06:40:06Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SampleString]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="199" started-at="2019-01-09T06:40:06Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[!@#$%^&*()]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="203" started-at="2019-01-09T06:40:06Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10-09-1984]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="204" started-at="2019-01-09T06:40:07Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[12.34]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="211" started-at="2019-01-09T06:40:07Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Select * from orders;]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="530" started-at="2019-01-09T06:40:07Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:40:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[v1/order/1/complete]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="203" started-at="2019-01-09T06:40:08Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:40:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[.000000000034/orders/1/complete]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="207" started-at="2019-01-09T06:40:08Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:40:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1234567890/orders/1/complete]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="858" started-at="2019-01-09T06:40:08Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:40:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[String/orders/1/complete]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="209" started-at="2019-01-09T06:40:09Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:40:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[!@#$%^&*()/orders/1/complete]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="206" started-at="2019-01-09T06:40:09Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:40:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[select* from orders/orders/1/complete]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="217" started-at="2019-01-09T06:40:09Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:40:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1234.9089/orders/1/complete]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="196" started-at="2019-01-09T06:40:09Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:40:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[v1/order/1/completed]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_04_verify_order_not_completed_without_placing_it()[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_04_verify_order_not_completed_without_placing_it" duration-ms="23" started-at="2019-01-09T06:40:10Z" finished-at="2019-01-09T06:40:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_04_verify_order_not_completed_without_placing_it -->
-        <test-method status="FAIL" signature="test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id" duration-ms="520" started-at="2019-01-09T06:40:10Z" finished-at="2019-01-09T06:40:10Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[
-Expected: is <201>
-     but: was <503>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <201>
-     but: was <503>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-at com.rest.api.PutApiCompleteOrder.test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id(PutApiCompleteOrder.java:187)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id -->
-      </class> <!-- com.rest.api.PutApiCompleteOrder -->
       <class name="com.rest.api.PutApiCancelOrder">
-        <test-method status="FAIL" signature="test_01_verify_cancel_an_assigned_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_01_verify_cancel_an_assigned_order_with_specific_order_id" duration-ms="521" started-at="2019-01-09T06:40:01Z" finished-at="2019-01-09T06:40:02Z">
+        <test-method status="FAIL" signature="test_01_verify_cancel_an_assigned_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_01_verify_cancel_an_assigned_order_with_specific_order_id" duration-ms="354" started-at="2019-01-09T06:47:41Z" finished-at="2019-01-09T06:47:41Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
@@ -2808,7 +1984,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_verify_cancel_an_assigned_order_with_specific_order_id -->
-        <test-method status="FAIL" signature="test_02_verify_cancel_an_ongoing_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_02_verify_cancel_an_ongoing_order_with_specific_order_id" duration-ms="205" started-at="2019-01-09T06:40:02Z" finished-at="2019-01-09T06:40:02Z">
+        <test-method status="FAIL" signature="test_02_verify_cancel_an_ongoing_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_02_verify_cancel_an_ongoing_order_with_specific_order_id" duration-ms="463" started-at="2019-01-09T06:47:41Z" finished-at="2019-01-09T06:47:42Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
@@ -2853,7 +2029,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02_verify_cancel_an_ongoing_order_with_specific_order_id -->
-        <test-method status="FAIL" signature="test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id" duration-ms="220" started-at="2019-01-09T06:40:02Z" finished-at="2019-01-09T06:40:02Z">
+        <test-method status="FAIL" signature="test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id" duration-ms="337" started-at="2019-01-09T06:47:42Z" finished-at="2019-01-09T06:47:42Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
@@ -2898,7 +2074,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03_verify_order_not_cancelled_for_an_already_completed_order_with_specific_order_id -->
-        <test-method status="FAIL" signature="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id" duration-ms="222" started-at="2019-01-09T06:40:02Z" finished-at="2019-01-09T06:40:03Z">
+        <test-method status="FAIL" signature="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id" duration-ms="472" started-at="2019-01-09T06:47:42Z" finished-at="2019-01-09T06:47:42Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
@@ -2943,7 +2119,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_04_verify_order_not_cancelled_an_already_cancelled_order_with_specific_order_id -->
-        <test-method status="FAIL" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="219" started-at="2019-01-09T06:40:03Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:03Z">
+        <test-method status="FAIL" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="566" started-at="2019-01-09T06:47:42Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:43Z">
           <params>
             <param index="0">
               <value>
@@ -2995,7 +2171,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="214" started-at="2019-01-09T06:40:03Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:03Z">
+        <test-method status="FAIL" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="459" started-at="2019-01-09T06:47:43Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:43Z">
           <params>
             <param index="0">
               <value>
@@ -3047,7 +2223,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="201" started-at="2019-01-09T06:40:03Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:03Z">
+        <test-method status="FAIL" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="384" started-at="2019-01-09T06:47:43Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:44Z">
           <params>
             <param index="0">
               <value>
@@ -3099,7 +2275,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="204" started-at="2019-01-09T06:40:03Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:03Z">
+        <test-method status="FAIL" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="346" started-at="2019-01-09T06:47:44Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:44Z">
           <params>
             <param index="0">
               <value>
@@ -3151,7 +2327,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="196" started-at="2019-01-09T06:40:03Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:04Z">
+        <test-method status="FAIL" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="3386" started-at="2019-01-09T06:47:44Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:48Z">
           <params>
             <param index="0">
               <value>
@@ -3203,7 +2379,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="208" started-at="2019-01-09T06:40:04Z" data-provider="invalidIds" finished-at="2019-01-09T06:40:04Z">
+        <test-method status="FAIL" signature="test_05_verify_order_not_cancelled_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_05_verify_order_not_cancelled_with_invalid_order_id" duration-ms="458" started-at="2019-01-09T06:47:48Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:48Z">
           <params>
             <param index="0">
               <value>
@@ -3255,7 +2431,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_05_verify_order_not_cancelled_with_invalid_order_id -->
-        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="202" started-at="2019-01-09T06:40:04Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:40:04Z">
+        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="462" started-at="2019-01-09T06:47:48Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:47:48Z">
           <params>
             <param index="0">
               <value>
@@ -3307,7 +2483,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="204" started-at="2019-01-09T06:40:04Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:40:04Z">
+        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="345" started-at="2019-01-09T06:47:48Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:47:49Z">
           <params>
             <param index="0">
               <value>
@@ -3359,7 +2535,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="209" started-at="2019-01-09T06:40:04Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:40:05Z">
+        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="352" started-at="2019-01-09T06:47:49Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:47:49Z">
           <params>
             <param index="0">
               <value>
@@ -3411,7 +2587,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="211" started-at="2019-01-09T06:40:05Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:40:05Z">
+        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="343" started-at="2019-01-09T06:47:49Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:47:50Z">
           <params>
             <param index="0">
               <value>
@@ -3463,7 +2639,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="198" started-at="2019-01-09T06:40:05Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:40:05Z">
+        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="345" started-at="2019-01-09T06:47:50Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:47:50Z">
           <params>
             <param index="0">
               <value>
@@ -3515,7 +2691,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="204" started-at="2019-01-09T06:40:05Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:40:05Z">
+        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="344" started-at="2019-01-09T06:47:50Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:47:50Z">
           <params>
             <param index="0">
               <value>
@@ -3567,7 +2743,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="201" started-at="2019-01-09T06:40:05Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:40:05Z">
+        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="360" started-at="2019-01-09T06:47:50Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:47:51Z">
           <params>
             <param index="0">
               <value>
@@ -3619,7 +2795,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="199" started-at="2019-01-09T06:40:05Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:40:06Z">
+        <test-method status="FAIL" signature="test_06_verify_order_not_cancelled_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_06_verify_order_not_cancelled_with_invalid_end_point" duration-ms="346" started-at="2019-01-09T06:47:51Z" data-provider="invalidCancelEndPoint" finished-at="2019-01-09T06:47:51Z">
           <params>
             <param index="0">
               <value>
@@ -3671,11 +2847,835 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_06_verify_order_not_cancelled_with_invalid_end_point -->
-        <test-method status="PASS" signature="test_07_verify_order_not_cancelled_without_placing_it()[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_07_verify_order_not_cancelled_without_placing_it" duration-ms="33" started-at="2019-01-09T06:40:06Z" finished-at="2019-01-09T06:40:06Z">
+        <test-method status="PASS" signature="test_07_verify_order_not_cancelled_without_placing_it()[pri:0, instance:com.rest.api.PutApiCancelOrder@4b553d26]" name="test_07_verify_order_not_cancelled_without_placing_it" duration-ms="42" started-at="2019-01-09T06:47:51Z" finished-at="2019-01-09T06:47:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_07_verify_order_not_cancelled_without_placing_it -->
       </class> <!-- com.rest.api.PutApiCancelOrder -->
-    </test> <!-- Regression Suite -->
-  </suite> <!-- REST API TESTING -->
+      <class name="com.rest.api.PutApiCompleteOrder">
+        <test-method status="FAIL" signature="test_01_verify_complete_an_ongoing_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_01_verify_complete_an_ongoing_order_with_specific_order_id" duration-ms="754" started-at="2019-01-09T06:47:51Z" finished-at="2019-01-09T06:47:52Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_01_verify_complete_an_ongoing_order_with_specific_order_id(PutApiCompleteOrder.java:59)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01_verify_complete_an_ongoing_order_with_specific_order_id -->
+        <test-method status="FAIL" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="343" started-at="2019-01-09T06:47:52Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
+        <test-method status="FAIL" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="471" started-at="2019-01-09T06:47:52Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SampleString]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
+        <test-method status="FAIL" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="3377" started-at="2019-01-09T06:47:53Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
+        <test-method status="FAIL" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="352" started-at="2019-01-09T06:47:56Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10-09-1984]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
+        <test-method status="FAIL" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="342" started-at="2019-01-09T06:47:56Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12.34]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
+        <test-method status="FAIL" signature="test_02_verify_order_not_completed_with_invalid_order_id(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_02_verify_order_not_completed_with_invalid_order_id" duration-ms="352" started-at="2019-01-09T06:47:57Z" data-provider="invalidIds" finished-at="2019-01-09T06:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Select * from orders;]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_02_verify_order_not_completed_with_invalid_order_id(PutApiCompleteOrder.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_order_not_completed_with_invalid_order_id -->
+        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="345" started-at="2019-01-09T06:47:57Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[v1/order/1/complete]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="348" started-at="2019-01-09T06:47:57Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.000000000034/orders/1/complete]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="351" started-at="2019-01-09T06:47:58Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890/orders/1/complete]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="351" started-at="2019-01-09T06:47:58Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[String/orders/1/complete]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="1244" started-at="2019-01-09T06:47:58Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()/orders/1/complete]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="458" started-at="2019-01-09T06:48:00Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[select* from orders/orders/1/complete]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="349" started-at="2019-01-09T06:48:00Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234.9089/orders/1/complete]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="FAIL" signature="test_03_verify_order_not_completed_with_invalid_end_point(java.lang.String)[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_03_verify_order_not_completed_with_invalid_end_point" duration-ms="457" started-at="2019-01-09T06:48:00Z" data-provider="invalidCompleteEndPoint" finished-at="2019-01-09T06:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[v1/order/1/completed]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_03_verify_order_not_completed_with_invalid_end_point(PutApiCompleteOrder.java:138)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_order_not_completed_with_invalid_end_point -->
+        <test-method status="PASS" signature="test_04_verify_order_not_completed_without_placing_it()[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_04_verify_order_not_completed_without_placing_it" duration-ms="22" started-at="2019-01-09T06:48:01Z" finished-at="2019-01-09T06:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_04_verify_order_not_completed_without_placing_it -->
+        <test-method status="FAIL" signature="test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id()[pri:0, instance:com.rest.api.PutApiCompleteOrder@69a3d1d]" name="test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id" duration-ms="324" started-at="2019-01-09T06:48:01Z" finished-at="2019-01-09T06:48:01Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is <201>
+     but: was <503>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is <201>
+     but: was <503>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.rest.api.PutApiCompleteOrder.test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id(PutApiCompleteOrder.java:187)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05_verify_order_not_completed_for_an_already_completed_order_with_specific_order_id -->
+      </class> <!-- com.rest.api.PutApiCompleteOrder -->
+    </test> <!-- Regression-Suite -->
+  </suite> <!-- Rest-API-Testing -->
 </testng-results>

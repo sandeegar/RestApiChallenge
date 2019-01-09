@@ -26,10 +26,13 @@ graph TD;    ASSIGNING-->ONGOING;
 Configure Github repository Project in Eclipse.
 
 ## Installing
-External Jars from the external_jars folder under root directory should be added in Java Build Path and TestNG Library should be added.
+Install maven 4.0.0 into your system.
 
 ## Running the tests
 Go to the root directory under RestApiChallenge browse your testNG.xml  right click and select Run as >>run TestNG Suite 
 
 ## To view Report 
-Go to the root directory under RestApiChallenge/test-output/Suite1/all-tests.html
+Go to the root directory under RestApiChallenge/test-output/Rest-API-Testing/Regression-Suite.html
+
+## Important Note
+There is performance issue on the hosted server of the application as there are list of 87 API tests which have been automated including positive and negative scenarios. So Application crashes after executing 19 tests passed and for the remaining tests it shows HTTP 503 Service Unavailable error.
