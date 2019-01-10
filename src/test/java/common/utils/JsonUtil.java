@@ -12,7 +12,7 @@ public class JsonUtil {
 	private static JSONArray stopArr=new JSONArray();
 		
 		
-	public static JSONObject placeOrderJson(ArrayList<Double> lattitude, ArrayList<Double> longitude) throws Exception {		
+	public static JSONObject placeOrderJson(ArrayList<String> lattitude, ArrayList<String> longitude) throws Exception {		
 		for (int stop_index=0; stop_index < 3; stop_index++)		
 		{
 			stopsParams = new JSONObject();
@@ -28,7 +28,7 @@ public class JsonUtil {
 		
 	}	
 	
-	public static JSONObject placeOrderJsonAtSpecificTime(ArrayList<Double> lattitude, ArrayList<Double> longitude, String timeStamp) throws Exception {			
+	public static JSONObject placeOrderJsonAtSpecificTime(ArrayList<String> lattitude, ArrayList<String> longitude, String timeStamp) throws Exception {			
 		for (int stop_index=0; stop_index < 3; stop_index++)		
 		{
 			stopsParams = new JSONObject();

@@ -28,8 +28,8 @@ public class BaseClass {
     private static Sheet sheet = null;
     
     static Logger log = Logger.getRootLogger();
-    protected ArrayList<Double> lattitude = new ArrayList<Double>();
-    protected ArrayList<Double> longitude = new ArrayList<Double>();
+    protected ArrayList<String> lattitude = new ArrayList<String>();
+    protected ArrayList<String> longitude = new ArrayList<String>();
     protected RequestSpecification httpRequest = null;
     
 	@BeforeSuite
@@ -38,8 +38,8 @@ public class BaseClass {
 				log.setLevel(Level.DEBUG);	
 				for (int row=1;row<=3; row++)
 				{
-					lattitude.add(Double.valueOf(getValue(1, row)));
-					longitude.add(Double.valueOf(getValue(2, row)));
+					lattitude.add(getValue(1, row));
+					longitude.add(getValue(2, row));
 				}
 				
 				RestAssured.baseURI = baseUri+":"+port;		

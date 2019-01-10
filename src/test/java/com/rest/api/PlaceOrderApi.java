@@ -78,8 +78,8 @@ public class PlaceOrderApi extends BaseClass{
 	public void test_04_verify_order_not_placed_with_incorrect_location_of_one_stop(String invalidValue) throws Exception {	
 		try {
 			//Given
-			lattitude.add(Double.valueOf(invalidValue));
-			longitude.add(Double.valueOf(invalidValue));
+			lattitude.add(invalidValue);
+			longitude.add(invalidValue);
 			
 			JSONObject input_json = JsonUtil.placeOrderJson(lattitude, longitude);
 			log.info("******************Input JSON*****************\n"+input_json);		
@@ -105,8 +105,8 @@ public class PlaceOrderApi extends BaseClass{
 			//Given
 			for (int row=1;row<=2; row++)
 			{	
-				lattitude.add(Double.valueOf(invalidValue));
-				longitude.add(Double.valueOf(invalidValue));
+				lattitude.add(invalidValue);
+				longitude.add(invalidValue);
 			}
 			
 			JSONObject input_json = JsonUtil.placeOrderJson(lattitude, longitude);
@@ -177,11 +177,11 @@ public class PlaceOrderApi extends BaseClass{
 	public void test_08_verify_order_not_placed_with_identical_two_stops() throws Exception {
 		try {
 			//Given
-			lattitude.add(Double.valueOf(getValue(1, 1)));
-			longitude.add(Double.valueOf(getValue(2, 1)));
+			lattitude.add(getValue(1, 1));
+			longitude.add(getValue(2, 1));
 			
-			lattitude.add(Double.valueOf(getValue(1, 1)));
-			longitude.add(Double.valueOf(getValue(2, 1)));
+			lattitude.add(getValue(1, 1));
+			longitude.add(getValue(2, 1));
 			
 			JSONObject input_json = JsonUtil.placeOrderJson(lattitude, longitude);
 			log.info("******************Input JSON*****************\n"+input_json);		

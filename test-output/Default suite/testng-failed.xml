@@ -5,10 +5,9 @@
     <classes>
       <class name="com.rest.api.PlaceOrderApi">
         <methods>
-          <include name="test_08_verify_order_not_placed_with_identical_two_stops"/>
+          <include name="test_01_verify_placing_an_order"/>
           <include name="initialize"/>
-          <include name="test_05_verify_order_not_placed_with_incorrect_locations_of_stops" invocation-numbers="0 1"/>
-          <include name="test_04_verify_order_not_placed_with_incorrect_location_of_one_stop" invocation-numbers="0 1"/>
+          <include name="test_02_verify_placing_an_order_at_specific_time"/>
         </methods>
       </class> <!-- com.rest.api.PlaceOrderApi -->
     </classes>
